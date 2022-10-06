@@ -20,9 +20,15 @@
         crossorigin="anonymous"></script>
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.logwork.com/widget/digital.js"></script>
 </head>
 
 <body>
+    <div id="timeLive">
+        <a href="https://logwork.com/current-time-in-hanoi-vietnam-ha-noi" id="nameTime" class="digital-clock" data-style="flip" data-size="250" data-timezone="Asia/Phnom_Penh" data-language="vi">Current time in Hanoi, Vietnam</a>
+        <!-- <a href="https://logwork.com/current-time-in-hanoi-vietnam-ha-noi" class="digital-clock" data-style="round" data-size="250" data-timezone="Asia/Phnom_Penh" data-language="vi">Current time in Hanoi, Vietnam</a> -->
+    </div>
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
     <div class="header fixed-top">
         <div class="container">
             <div class="row">
@@ -101,19 +107,19 @@
                     <div class="title ellipsis">
                         <a href="/bang-xep-hang" class="txt"> BÀI HÁT HOT</a>
                     </div>
-                    
+
                     <!-- <ul class="nav nav-pills" role="tablist">
                         <li class="active"><a href="#viet-nam" role="tab" data-toggle="tab">Việt Nam</a></li>
                         <li class=""><a href="#us-uk" role="tab" data-toggle="tab">US/UK</a></li>
                         <li class=""><a href="#sang-tao" role="tab" data-toggle="tab">Sáng tạo</a></li>
                     </ul> -->
                     <div class="tab nav-pills">
-                        <button class="tablinks btn" onclick="openAlbum(event, 'tap1')">Việt Nam</button>
+                        <button class="tablinks btn active" onclick="openAlbum(event, 'tap1')">Việt Nam</button>
                         <button class="tablinks btn" onclick="openAlbum(event, 'tap2')">US/UK</button>
                         <button class="tablinks btn" onclick="openAlbum(event, 'tap3')">Sáng tạo</button>
                     </div>
 
-                    <div id="tap1" class="tabcontent">
+                    <div id="tap1" class="tabcontent" style="display: block;">
                         <h3>London</h3>
                         <p>London is the capital city of England.</p>
                     </div>
@@ -221,14 +227,12 @@
         </div>
     </div>
 
-
-
-
-
-
 </body>
 
+
+
 <script>
+
     $(document).ready(function () {
         $(".item").click(function () {
             window.location.href = './detail.html';
@@ -261,27 +265,48 @@
         evt.currentTarget.className += " active";
     }
 
-    $(document).ready(function(){
-        $.getJSON("test.json", function(data){
-            console.log(data.name); // Prints: Harry
-            console.log(data.age); // Prints: 14
-        }).fail(function(){
-            console.log("An error has occurred.");
-        });
-    });
+    // Get the button
+    let mybutton = document.getElementById("timeLive");
 
-    var jqxhr = $.getJSON("data/data.json", function () {
-        console.log("success");
-    })
-        .done(function () {
-            console.log("second success");
-        })
-        .fail(function () {
-            console.log("error");
-        })
-        .always(function () {
-            console.log("complete");
-        });
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        var d = new Date();
+        var month = d.getMonth()+1;
+        var day = d.getDate();
+        var output = (day<10 ? '0' : '') + day + '/' +
+            (month<10 ? '0' : '') + month + '/' +
+            d.getFullYear();
+            
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            console.log("in scroll display = block")
+            console.log(output)
+            var outDate = "Hà Nội, " + output
+            mybutton.style.display = "block";
+            $('#nameTime').text(outDate);
+            // mybutton.textContent =
+        } else {
+            console.log("in scroll display = none")
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    // function refreshTime() {
+    //     const timeDisplay = document.getElementById("timeLive");
+    //     const dateString = new Date().toLocaleString();
+    //     const formattedString = dateString.replace(", ", " - ");
+        
+    //     timeDisplay.textContent = formattedString + Intl.DateTimeFormat().resolvedOptions().timeZone;
+    // }
+    // setInterval(refreshTime, 1000);
 </script>
+
 
 </html>

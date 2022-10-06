@@ -219,3 +219,23 @@ hr {
     /* border: 1px solid #ccc; */
     border-top: none;
 }
+#timeLive {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+    height: 100px;
+  }
+  
+  #timeLive:hover {
+    /* background-color: #555; */
+  }
