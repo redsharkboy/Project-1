@@ -1,0 +1,296 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html,
+body {
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #14182a;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+u {
+    text-decoration: none !important;
+}
+
+.top {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #1b2039;
+    height: 60px;
+}
+
+.header {
+    color: #fff;
+    background-color: #14182a;
+
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    /* line-height: 28px; */
+}
+
+.ms_top_trend {
+    float: right;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.ms-color {
+    color: #3bc8e7;
+}
+
+.padding-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.padding-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.main {
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.row {
+    padding: 0 8px;
+}
+
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ms-heading {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.item {
+    float: left;
+    width: auto;
+    padding: 0 8px;
+    text-align: center;
+}
+
+.item>img {
+    width: auto;
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.item>h3 {
+    margin: 10px 0 5px;
+
+}
+
+.item>p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.center .bar {
+    display: inline-block;
+    width: auto;
+}
+
+.bar {
+    white-space: normal;
+}
+
+.bar .bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.button {
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    overflow: hidden;
+    color: inherit;
+    background-color: inherit;
+}
+
+.black {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.about {
+    font-weight: 400;
+}
+
+.about h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.about h4 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.about h6 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.about img {
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 533px;
+    object-fit: contain;
+}
+
+.footer h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.nav li a {
+    color: #fff;
+}
+
+.title {
+    font-size: 30px;
+    color: #222222;
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.txt {
+    color: #000;
+}
+
+.nav-pills button {
+    background-color: #d9d9d9;
+    color: #232323;
+    padding: 7px 8px;
+    border-radius: 20px;
+}
+
+.nav-pills li {
+    margin-right: 7px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+}
+
+#timeLive {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+    height: 100px;
+}
+
+#timeLive:hover {
+    /* background-color: #555; */
+}
+
+.media-left,
+.media-right,
+.media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-left,
+.media>.pull-left {
+    padding-right: 10px;
+}
+.song-name, a.song-name {
+    color: #333333;
+}
+.singer-name, .singer-name a {
+    color: #6e6e6e !important;
+    font-size: 12px;
+}
+.mdl-songs .media {
+    position: relative;
+    border-top: 1px solid #e5e5e5;
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+}
+.mdl-songs .media:last-child {
+    border-bottom: 1px solid #e5e5e5;
+}
+.mdl-songs .overlay {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 58px;
+    padding-top: 19px;
+    padding-left: 70px;
+    display: none;
+}
+.mdl-billboard .media {
+    position: relative;
+    border-top: 1px solid #e5e5e5;
+    padding: 10px 0;
+    margin: 0;
+}
+.mdl-billboard .media-right {
+    font-size: 36px;
+    font-family: LatoThin;
+}
+.media-body {
+    width: 10000px;
+}
+.mdl-billboard .media:last-child {
+    border-bottom: 1px solid #e5e5e5;
+}
