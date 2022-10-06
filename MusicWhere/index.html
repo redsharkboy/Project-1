@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MusicWhere</title>
+    <meta name="viewport"
+        content="width=device-width, maximum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="header fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="logo">
+                        MusicWheress
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="search" style="display: inline-flex;">
+                            <!-- <i class="fa fa-search"></i> -->
+                            <input type="text" class="form-control" placeholder="Tìm kiếm bài hát">
+                            <button class="btn btn-light">Search</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">BÀI HÁT HOT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CHỦ ĐỀ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">THỂ LOẠI</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CA SỸ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <div class="wrap-content" style="padding-top: 30px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="title ellipsis">
+                        <a href="/bang-xep-hang" class="txt"> BÀI HÁT HOT</a>
+                    </div>
+                    
+                    <!-- <ul class="nav nav-pills" role="tablist">
+                        <li class="active"><a href="#viet-nam" role="tab" data-toggle="tab">Việt Nam</a></li>
+                        <li class=""><a href="#us-uk" role="tab" data-toggle="tab">US/UK</a></li>
+                        <li class=""><a href="#sang-tao" role="tab" data-toggle="tab">Sáng tạo</a></li>
+                    </ul> -->
+                    <div class="tab nav-pills">
+                        <button class="tablinks btn" onclick="openAlbum(event, 'tap1')">Việt Nam</button>
+                        <button class="tablinks btn" onclick="openAlbum(event, 'tap2')">US/UK</button>
+                        <button class="tablinks btn" onclick="openAlbum(event, 'tap3')">Sáng tạo</button>
+                    </div>
+
+                    <div id="tap1" class="tabcontent">
+                        <h3>London</h3>
+                        <p>London is the capital city of England.</p>
+                    </div>
+
+                    <div id="tap2" class="tabcontent">
+                        <h3>Paris</h3>
+                        <p>Paris is the capital of France.</p>
+                    </div>
+
+                    <div id="tap3" class="tabcontent">
+                        <h3>Tokyo</h3>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="ms-heading">
+                <h3 class="ms-color">Featured Albums</h3>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <img src="img/song1.jpg" alt="Sandwich">
+                    <h4>Best Of Ava Cornish</h4>
+                </div>
+                <div class="item">
+                    <img src="img/song2.jpg" alt="Sandwich">
+                    <h4>Until I Met You</h4>
+                </div>
+                <div class="item">
+                    <img src="img/song3.jpg" alt="Sandwich">
+                    <h4>Gimme Some Courage</h4>
+                </div>
+                <div class="item">
+                    <img src="img/song5.jpg" alt="Sandwich">
+                    <h4>Dark Alley Acoustic</h4>
+                </div>
+            </div>
+            <div class="row center padding-32">
+                <div class="bar">
+                    <a href="#" class="bar-item buttong hover-black"></a>
+                    <a href="#" class="bar-item buttong black">1</a>
+                    <a href="#" class="bar-item buttong hover-black">2</a>
+                    <a href="#" class="bar-item buttong hover-black">3</a>
+                    <a href="#" class="bar-item buttong hover-black">4</a>
+                    <a href="#" class="bar-item buttong hover-black">>></a>
+                </div>
+            </div>
+            <hr>
+            <!--        About Section-->
+            <div class="about row center padding-32">
+
+                <h1 class="ms-color">Trending Songs</h1>
+                <img src="img/banner.png" alt="Me" class="w3-image">
+                <div class="padding-32">
+                    <h4>Record Breaking Albums !</h4>
+                    <h6><i>With Passion For Real, Good Music</i></h6>
+                    <p>Dream Your moment, Until I Met You, Gimme Some Courage, Dark Alley, One More Of a Stranger,
+                        Endless<br>
+                        Thing, The Heartbeat Stops, Waling Promises, Desired Games and many more...</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer">
+            <!--      Footer Section-->
+            <div class="footer row padding-32">
+                <div>
+                    <span> Lượt truy cập: </span>
+                    <span id="CounterVisitor"> </span>
+                </div>
+                <div class="third">
+                    <h3 class="ms-color">MusicWhere Stations</h3>
+                    <p>Dream Your moment, Until I Met You, Gimme Some Courage, Dark Alley, One More Of a Stranger,
+                        Endless<br>
+                        Thing, The Heartbeat Stops, Waling Promises, Desired Games and many more...</p>
+                    <p>
+                        Powered by <a href="#">aptech.ac.vn</a>
+                    </p>
+                </div>
+                <div class="third">
+                    <h3 class="ms-color">Download Our App</h3>
+                    <p>Go Mobile with our app.
+                        Listen to your favourite song at just one click. Download Now !
+                    </p>
+                    <a href="#"><img src="img/google_play.jpg" alt=""></a>
+                    <a href="#"><img src="img/app_store.jpg" alt=""></a>
+                    <a href="#"><img src="img/windows.jpg" alt=""></a>
+                </div>
+                <div class="third">
+                    <h3 class="ms-color">Contact Us</h3>
+                    <p><span class="con-title">Call us :</span>
+                        <span>(+84) 24-7300-8855,(+84) 24-7300-8866, </span>
+                    </p>
+                    <p><span class="con-title">Email us</span>
+                        <span><a href="#">demo@gmail.com</a><a href="#">fpt-aptech@gmail.com</a></span>
+                    </p>
+                    <p><span class="co-title">Walk in :</span>
+                        <span>Số 8, Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, HN</span> <br />
+                        <span>590 Cách Mạng Tháng Tám, Quận 3, TPHCM</span>
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+<script>
+    $(document).ready(function () {
+        $(".item").click(function () {
+            window.location.href = './detail.html';
+        });
+    });
+
+    var n = localStorage.getItem('on_load_counter');
+
+    if (n === null) {
+        n = 0;
+    }
+    n++;
+
+    localStorage.setItem("on_load_counter", n);
+
+    nums = n.toString().split('').map(Number);
+    document.getElementById('CounterVisitor').innerHTML = nums.join('');
+
+    function openAlbum(evt, albumName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(albumName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    $(document).ready(function(){
+        $.getJSON("test.json", function(data){
+            console.log(data.name); // Prints: Harry
+            console.log(data.age); // Prints: 14
+        }).fail(function(){
+            console.log("An error has occurred.");
+        });
+    });
+
+    var jqxhr = $.getJSON("data/data.json", function () {
+        console.log("success");
+    })
+        .done(function () {
+            console.log("second success");
+        })
+        .fail(function () {
+            console.log("error");
+        })
+        .always(function () {
+            console.log("complete");
+        });
+</script>
+
+</html>
