@@ -1,5 +1,68 @@
 {
-"name": "Amit",
-"age" : "27",
-"sex": "male"
+  "items": [
+    {
+      "locationTag": "contentLike1",
+      "datas": [
+        {
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/96/a7/79/6180f8a7e30d7.jpg",
+          "song": "Mùa Xuân",
+          "singer": "Tuấn Vũ",
+          "composer": "Võ Thiện Thanh",
+          "topic": "Nhạc Hot",
+          "category": "Nhạc Nhẹ",
+          "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>"
+        },
+        {
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/95/cc/c9/5bc6ae81315d4.jpg",
+          "song": "Mùa Hè",
+          "singer": "Khương Duy",
+          "composer": null,
+          "topic": "Thịnh hành",
+          "category": "Nhạc Nhẹ",
+          "lyrics": "Nhạc và lời Nguyễn Vũ<br><br>Bài thánh ca đó còn nhớ không em?<br>Noel năm nào chúng mình có nhau!<br>Long linh sao trời đẹp thêm môi mắt.<br>Áo trắng em bay như cánh thiên thần.<br>Ngọt môi hôn dưới tháp chuông ngân.<br><br>Cùng nhau quỳ dưới trần Chúa cao sang.<br>Xin cho đôi mình suốt đời có nhau.<br>Vang trong đêm lạnh bài ca Thiên Chúa.<br>Khẽ hát theo câu đêm Thánh vô cùng.<br>Ôi giọng hát em mênh mang buồn!<br><br>ĐK:<br>Rồi mùa giá buốt cũng qua mau.<br>Lời hẹn đầu ai nhớ dài lâu.<br>Rồi một chiều áo trắng thay màu.<br>Em qua cầu xác pháo bay sau.<br>Lời nguyện mình Chúa có nghe không?<br>Sao bây giờ mình hoài xa vắng.<br>Bao nhiêu đêm Chúa xuống dương gian.<br>Bấy nhiêu lần con nhớ người yêu.<br><br>Rồi những đêm Thánh đường đón Noel.<br>Lang thang qua miền giáo đường dấu yêu.<br>Tiêng Thánh ca ngày xưa vang đêm tối.<br>Nhớ quá đi thôi giọng hát ai buồn?<br>Đêm Thánh vô cùng lạnh giá hồn tôi."
+        },
+        {
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/5d/15/55/5ba9d9bd72d7b.jpg",
+          "song": "Người Thương",
+          "singer": "Hoàng Tôn",
+          "composer": null,
+          "topic": "Thịnh hành",
+          "category": "Nhạc Nhẹ",
+          "lyrics": "Nhạc và lời Nguyễn Vũ<br><br>Bài thánh ca đó còn nhớ không em?<br>Noel năm nào chúng mình có nhau!<br>Long linh sao trời đẹp thêm môi mắt.<br>Áo trắng em bay như cánh thiên thần.<br>Ngọt môi hôn dưới tháp chuông ngân.<br><br>Cùng nhau quỳ dưới trần Chúa cao sang.<br>Xin cho đôi mình suốt đời có nhau.<br>Vang trong đêm lạnh bài ca Thiên Chúa.<br>Khẽ hát theo câu đêm Thánh vô cùng.<br>Ôi giọng hát em mênh mang buồn!<br><br>ĐK:<br>Rồi mùa giá buốt cũng qua mau.<br>Lời hẹn đầu ai nhớ dài lâu.<br>Rồi một chiều áo trắng thay màu.<br>Em qua cầu xác pháo bay sau.<br>Lời nguyện mình Chúa có nghe không?<br>Sao bây giờ mình hoài xa vắng.<br>Bao nhiêu đêm Chúa xuống dương gian.<br>Bấy nhiêu lần con nhớ người yêu.<br><br>Rồi những đêm Thánh đường đón Noel.<br>Lang thang qua miền giáo đường dấu yêu.<br>Tiêng Thánh ca ngày xưa vang đêm tối.<br>Nhớ quá đi thôi giọng hát ai buồn?<br>Đêm Thánh vô cùng lạnh giá hồn tôi."
+        }
+      ]
+    },
+    {
+      "locationTag": "contentLike2",
+      "datas": [
+        {
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/96/a7/79/6180f8a7e30d7.jpg",
+          "song": "Ước Gì",
+          "singer": "Mỹ Tâm",
+          "composer": "Võ Thiện Thanh",
+          "topic": "Nhạc Hot",
+          "category": "Nhạc Nhẹ",
+          "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>"
+        },
+        {
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/95/cc/c9/5bc6ae81315d4.jpg",
+          "song": "Bài Thánh Ca Buồn",
+          "singer": "Mỹ Tâm",
+          "composer": null,
+          "topic": "Thịnh hành",
+          "category": "Nhạc Nhẹ",
+          "lyrics": "Nhạc và lời Nguyễn Vũ<br><br>Bài thánh ca đó còn nhớ không em?<br>Noel năm nào chúng mình có nhau!<br>Long linh sao trời đẹp thêm môi mắt.<br>Áo trắng em bay như cánh thiên thần.<br>Ngọt môi hôn dưới tháp chuông ngân.<br><br>Cùng nhau quỳ dưới trần Chúa cao sang.<br>Xin cho đôi mình suốt đời có nhau.<br>Vang trong đêm lạnh bài ca Thiên Chúa.<br>Khẽ hát theo câu đêm Thánh vô cùng.<br>Ôi giọng hát em mênh mang buồn!<br><br>ĐK:<br>Rồi mùa giá buốt cũng qua mau.<br>Lời hẹn đầu ai nhớ dài lâu.<br>Rồi một chiều áo trắng thay màu.<br>Em qua cầu xác pháo bay sau.<br>Lời nguyện mình Chúa có nghe không?<br>Sao bây giờ mình hoài xa vắng.<br>Bao nhiêu đêm Chúa xuống dương gian.<br>Bấy nhiêu lần con nhớ người yêu.<br><br>Rồi những đêm Thánh đường đón Noel.<br>Lang thang qua miền giáo đường dấu yêu.<br>Tiêng Thánh ca ngày xưa vang đêm tối.<br>Nhớ quá đi thôi giọng hát ai buồn?<br>Đêm Thánh vô cùng lạnh giá hồn tôi."
+        },
+        {
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/5d/15/55/5ba9d9bd72d7b.jpg",
+          "song": "Người Thương",
+          "singer": "Hoàng Tôn",
+          "composer": null,
+          "topic": "Thịnh hành",
+          "category": "Nhạc Nhẹ",
+          "lyrics": "Nhạc và lời Nguyễn Vũ<br><br>Bài thánh ca đó còn nhớ không em?<br>Noel năm nào chúng mình có nhau!<br>Long linh sao trời đẹp thêm môi mắt.<br>Áo trắng em bay như cánh thiên thần.<br>Ngọt môi hôn dưới tháp chuông ngân.<br><br>Cùng nhau quỳ dưới trần Chúa cao sang.<br>Xin cho đôi mình suốt đời có nhau.<br>Vang trong đêm lạnh bài ca Thiên Chúa.<br>Khẽ hát theo câu đêm Thánh vô cùng.<br>Ôi giọng hát em mênh mang buồn!<br><br>ĐK:<br>Rồi mùa giá buốt cũng qua mau.<br>Lời hẹn đầu ai nhớ dài lâu.<br>Rồi một chiều áo trắng thay màu.<br>Em qua cầu xác pháo bay sau.<br>Lời nguyện mình Chúa có nghe không?<br>Sao bây giờ mình hoài xa vắng.<br>Bao nhiêu đêm Chúa xuống dương gian.<br>Bấy nhiêu lần con nhớ người yêu.<br><br>Rồi những đêm Thánh đường đón Noel.<br>Lang thang qua miền giáo đường dấu yêu.<br>Tiêng Thánh ca ngày xưa vang đêm tối.<br>Nhớ quá đi thôi giọng hát ai buồn?<br>Đêm Thánh vô cùng lạnh giá hồn tôi."
+        }
+      ]
+    }
+  ]
 }
