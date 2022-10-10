@@ -1,66 +1,436 @@
 {
   "items": [
     {
-      "locationTag": "contentLike1",
-      "datas": [
+      "id": 1,
+      "songName": "Mùa Xuân",
+      "singer": [
         {
-          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/96/a7/79/6180f8a7e30d7.jpg",
-          "song": "Mùa Xuân",
-          "singer": "Tuấn Vũ",
-          "composer": "Võ Thiện Thanh",
-          "topic": "Nhạc Hot",
-          "category": "Nhạc Nhẹ",
-          "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>"
+          "el1": "Tuấn Vũ",
+          "el2": "Khương Duy"
+        }
+      ],
+      "composer": "Võ Thiện Thanh",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>",
+      "locationTag": [
+        {
+          "locationTagName": "contentLike1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/96/a7/79/6180f8a7e30d7.jpg"
         },
-        {
-          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/95/cc/c9/5bc6ae81315d4.jpg",
-          "song": "Mùa Hè",
-          "singer": "Khương Duy",
-          "composer": null,
-          "topic": "Thịnh hành",
-          "category": "Nhạc Nhẹ",
-          "lyrics": "Nhạc và lời Nguyễn Vũ<br><br>Bài thánh ca đó còn nhớ không em?<br>Noel năm nào chúng mình có nhau!<br>Long linh sao trời đẹp thêm môi mắt.<br>Áo trắng em bay như cánh thiên thần.<br>Ngọt môi hôn dưới tháp chuông ngân.<br><br>Cùng nhau quỳ dưới trần Chúa cao sang.<br>Xin cho đôi mình suốt đời có nhau.<br>Vang trong đêm lạnh bài ca Thiên Chúa.<br>Khẽ hát theo câu đêm Thánh vô cùng.<br>Ôi giọng hát em mênh mang buồn!<br><br>ĐK:<br>Rồi mùa giá buốt cũng qua mau.<br>Lời hẹn đầu ai nhớ dài lâu.<br>Rồi một chiều áo trắng thay màu.<br>Em qua cầu xác pháo bay sau.<br>Lời nguyện mình Chúa có nghe không?<br>Sao bây giờ mình hoài xa vắng.<br>Bao nhiêu đêm Chúa xuống dương gian.<br>Bấy nhiêu lần con nhớ người yêu.<br><br>Rồi những đêm Thánh đường đón Noel.<br>Lang thang qua miền giáo đường dấu yêu.<br>Tiêng Thánh ca ngày xưa vang đêm tối.<br>Nhớ quá đi thôi giọng hát ai buồn?<br>Đêm Thánh vô cùng lạnh giá hồn tôi."
+		{
+          "locationTagName": "tap1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
         },
-        {
-          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/5d/15/55/5ba9d9bd72d7b.jpg",
-          "song": "Người Thương",
-          "singer": "Hoàng Tôn",
-          "composer": null,
-          "topic": "Thịnh hành",
-          "category": "Nhạc Nhẹ",
-          "lyrics": "Nhạc và lời Nguyễn Vũ<br><br>Bài thánh ca đó còn nhớ không em?<br>Noel năm nào chúng mình có nhau!<br>Long linh sao trời đẹp thêm môi mắt.<br>Áo trắng em bay như cánh thiên thần.<br>Ngọt môi hôn dưới tháp chuông ngân.<br><br>Cùng nhau quỳ dưới trần Chúa cao sang.<br>Xin cho đôi mình suốt đời có nhau.<br>Vang trong đêm lạnh bài ca Thiên Chúa.<br>Khẽ hát theo câu đêm Thánh vô cùng.<br>Ôi giọng hát em mênh mang buồn!<br><br>ĐK:<br>Rồi mùa giá buốt cũng qua mau.<br>Lời hẹn đầu ai nhớ dài lâu.<br>Rồi một chiều áo trắng thay màu.<br>Em qua cầu xác pháo bay sau.<br>Lời nguyện mình Chúa có nghe không?<br>Sao bây giờ mình hoài xa vắng.<br>Bao nhiêu đêm Chúa xuống dương gian.<br>Bấy nhiêu lần con nhớ người yêu.<br><br>Rồi những đêm Thánh đường đón Noel.<br>Lang thang qua miền giáo đường dấu yêu.<br>Tiêng Thánh ca ngày xưa vang đêm tối.<br>Nhớ quá đi thôi giọng hát ai buồn?<br>Đêm Thánh vô cùng lạnh giá hồn tôi."
+		{
+          "locationTagName": "tap2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "contentDownload",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "contentNew1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "contentNew2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
         }
       ]
     },
     {
-      "locationTag": "contentLike2",
-      "datas": [
+      "id": 2,
+      "songName": "Mùa Hè",
+      "singer": [
         {
-          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/96/a7/79/6180f8a7e30d7.jpg",
-          "song": "Ước Gì",
-          "singer": "Mỹ Tâm",
-          "composer": "Võ Thiện Thanh",
-          "topic": "Nhạc Hot",
-          "category": "Nhạc Nhẹ",
-          "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>"
+          "el1": "Tuấn Vũ",
+          "el2": ""
+        }
+      ],
+      "composer": "Võ Thiện Thanh",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>",
+      "locationTag": [
+        {
+          "locationTagName": "contentLike1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/96/a7/79/6180f8a7e30d7.jpg"
         },
-        {
-          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/95/cc/c9/5bc6ae81315d4.jpg",
-          "song": "Bài Thánh Ca Buồn",
-          "singer": "Mỹ Tâm",
-          "composer": null,
-          "topic": "Thịnh hành",
-          "category": "Nhạc Nhẹ",
-          "lyrics": "Nhạc và lời Nguyễn Vũ<br><br>Bài thánh ca đó còn nhớ không em?<br>Noel năm nào chúng mình có nhau!<br>Long linh sao trời đẹp thêm môi mắt.<br>Áo trắng em bay như cánh thiên thần.<br>Ngọt môi hôn dưới tháp chuông ngân.<br><br>Cùng nhau quỳ dưới trần Chúa cao sang.<br>Xin cho đôi mình suốt đời có nhau.<br>Vang trong đêm lạnh bài ca Thiên Chúa.<br>Khẽ hát theo câu đêm Thánh vô cùng.<br>Ôi giọng hát em mênh mang buồn!<br><br>ĐK:<br>Rồi mùa giá buốt cũng qua mau.<br>Lời hẹn đầu ai nhớ dài lâu.<br>Rồi một chiều áo trắng thay màu.<br>Em qua cầu xác pháo bay sau.<br>Lời nguyện mình Chúa có nghe không?<br>Sao bây giờ mình hoài xa vắng.<br>Bao nhiêu đêm Chúa xuống dương gian.<br>Bấy nhiêu lần con nhớ người yêu.<br><br>Rồi những đêm Thánh đường đón Noel.<br>Lang thang qua miền giáo đường dấu yêu.<br>Tiêng Thánh ca ngày xưa vang đêm tối.<br>Nhớ quá đi thôi giọng hát ai buồn?<br>Đêm Thánh vô cùng lạnh giá hồn tôi."
+		{
+          "locationTagName": "tap3",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
         },
+		{
+          "locationTagName": "contentDownload",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "contentNew1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "contentNew2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        }
+      ]
+    },
+	{
+      "id": 3,
+      "songName": "Mùa Thu",
+      "singer": [
         {
-          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/5d/15/55/5ba9d9bd72d7b.jpg",
-          "song": "Người Thương",
-          "singer": "Hoàng Tôn",
-          "composer": null,
-          "topic": "Thịnh hành",
-          "category": "Nhạc Nhẹ",
-          "lyrics": "Nhạc và lời Nguyễn Vũ<br><br>Bài thánh ca đó còn nhớ không em?<br>Noel năm nào chúng mình có nhau!<br>Long linh sao trời đẹp thêm môi mắt.<br>Áo trắng em bay như cánh thiên thần.<br>Ngọt môi hôn dưới tháp chuông ngân.<br><br>Cùng nhau quỳ dưới trần Chúa cao sang.<br>Xin cho đôi mình suốt đời có nhau.<br>Vang trong đêm lạnh bài ca Thiên Chúa.<br>Khẽ hát theo câu đêm Thánh vô cùng.<br>Ôi giọng hát em mênh mang buồn!<br><br>ĐK:<br>Rồi mùa giá buốt cũng qua mau.<br>Lời hẹn đầu ai nhớ dài lâu.<br>Rồi một chiều áo trắng thay màu.<br>Em qua cầu xác pháo bay sau.<br>Lời nguyện mình Chúa có nghe không?<br>Sao bây giờ mình hoài xa vắng.<br>Bao nhiêu đêm Chúa xuống dương gian.<br>Bấy nhiêu lần con nhớ người yêu.<br><br>Rồi những đêm Thánh đường đón Noel.<br>Lang thang qua miền giáo đường dấu yêu.<br>Tiêng Thánh ca ngày xưa vang đêm tối.<br>Nhớ quá đi thôi giọng hát ai buồn?<br>Đêm Thánh vô cùng lạnh giá hồn tôi."
+          "el1": "Tuấn Vũ",
+          "el2": ""
+        }
+      ],
+      "composer": "Võ Thiện Thanh",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>",
+      "locationTag": [
+        {
+          "locationTagName": "contentLike1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "contentLike2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/4b/71/14/5edb126b71210.jpg"
+        },
+		{
+          "locationTagName": "tap1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        }
+		,
+		{
+          "locationTagName": "tap2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "tap3",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "contentDownload",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "contentNew1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "contentNew2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "whatListen",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/4b/71/14/5edb126b71210.jpg"
+        }
+      ]
+    },
+	{
+      "id": 4,
+      "songName": "Mùa Đông",
+      "singer": [
+        {
+          "el1": "Khương Duy",
+          "el2": ""
+        }
+      ],
+      "composer": "Võ Thiện Thanh",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>",
+      "locationTag": [
+        {
+          "locationTagName": "contentLike2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "tap2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "whatListen",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        }
+      ]
+    },
+	{
+      "id": 5,
+      "songName": "Mùa Đông",
+      "singer": [
+        {
+          "el1": "Khương Duy",
+          "el2": ""
+        }
+      ],
+      "composer": "Võ Thiện Thanh",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>",
+      "locationTag": [
+        {
+          "locationTagName": "contentLike2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "tap1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/5a/88/85/5f72b4bc8c0ae.jpg"
+        },
+		{
+          "locationTagName": "tap3",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        }
+      ]
+    },
+	{
+      "id": 6,
+      "songName": "Ai muốn nghe không",
+      "singer": [
+        {
+          "el1": "Đen",
+          "el2": ""
+        }
+      ],
+      "composer": "Võ Thiện Thanh",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>",
+      "locationTag": [
+		{
+          "locationTagName": "tap1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "tap3",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "whatListen",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/4b/71/14/5edb126b71210.jpg"
+        },
+		{
+          "locationTagName": "contentHot",
+          "linkDetail": "/chu-de/va-ngay-nao-do",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/topic/f8/e7/7f/6335686a9399b.jpg"
+        }
+      ]
+    },
+	{
+      "id": 7,
+      "songName": "Mùa Đông",
+      "singer": [
+        {
+          "el1": "Đen",
+          "el2": ""
+        }
+      ],
+      "composer": "Võ Thiện Thanh",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>",
+      "locationTag": [
+		{
+          "locationTagName": "tap1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "tap2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "tap3",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "tap4",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/4b/71/14/5edb126b71210.jpg"
+        },
+		{
+          "locationTagName": "tap5",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "whatListen",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/4b/71/14/5edb126b71210.jpg"
+        },
+		{
+          "locationTagName": "contentHot",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/topic/3c/33/33/63395abe2cb5a.jpg"
+        }
+      ]
+    },
+	{
+      "id": 8,
+      "songName": "Ai muốn nghe không",
+      "singer": [
+        {
+          "el1": "Đen",
+          "el2": ""
+        }
+      ],
+      "composer": "Võ Thiện Thanh",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>",
+      "locationTag": [
+		{
+          "locationTagName": "tap1",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "tap2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "tap3",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "tap4",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "tap5",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "contentDownload",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/07/52/20/5f56e544f2489.jpg"
+        },
+		{
+          "locationTagName": "whatListen",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/4b/71/14/5edb126b71210.jpg"
+        },
+		{
+          "locationTagName": "contentHot",
+          "linkDetail": "/chu-de/tinh-lo-sang-trang",
+          "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/topic/84/71/18/6336bf047e430.jpg"
         }
       ]
     }

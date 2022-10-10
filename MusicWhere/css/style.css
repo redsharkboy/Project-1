@@ -218,6 +218,11 @@ hr {
     padding: 6px 12px;
     /* border: 1px solid #ccc; */
     border-top: none;
+}.tabcontents {
+    display: none;
+    padding: 6px 12px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
 }
 
 #timeLive {
@@ -293,4 +298,23 @@ hr {
 }
 .mdl-billboard .media:last-child {
     border-bottom: 1px solid #e5e5e5;
+}
+.image-topic {
+    width: 100%;
+    /* min-width: 310px; */
+}
+.footer {
+    background: #f4f4f4;
+    padding: 25px 0 35px 0;
+    color: #848484;
+    line-height: normal;
+    font-size: 13px;
+    clear: both;
+}
+.footer a {
+    color: #383838;
+    padding-right: 20px;
+}
+.mdl-songs img {
+    margin-bottom: 0;
 }
