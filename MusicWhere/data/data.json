@@ -3,6 +3,8 @@
     {
       "id": 1,
       "songName": "Mùa Xuân",
+	  "linkAudio": "audio/Despacito-J-Fla.mp3",
+	  "linkVideo": "",
       "singer": [
         {
           "el1": "Tuấn Vũ",
@@ -22,11 +24,11 @@
           "el2": "Nhạc Trữ Tình"
         }
       ],
-      "lyrics": "Bài hát: Ước Gì - Mỹ Tâm<br><br>Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>",
+      "lyrics": "Em đã sống những đêm trời có ánh trăng chiếu vàng<br>Em đã sống những đêm ngoài kia biển ru bờ cát<br>Ước gì anh ở đây giờ này<br>Ước gì anh cùng em chuyện trò<br>Cùng nhau nghe sóng xô ghềnh đá ngàn câu hát yên bình.<br><br>Em đã biết cô đơn là thế mỗi khi cách xa anh<br>Từng đàn chim cuối chân trời biếc tìm nơi bình yên<br>Ước gì anh ở đây giờ này<br>Ước gì em được em nghe giọng cười<br>Và hơi ấm đã bao ngày qua mình luôn sát vai kề.<br><br>Em xa anh đã bao ngày rồi<br>Nghe như tháng năm ngừng trôi<br>Khi xa, em nhớ anh thật nhiều<br>Này người yêu anh hỡi.<br><br>[ĐK:]<br>Ước gì em đã không lỡ lời<br>Ước gì ta đừng có giận hờn<br>Để giờ đây cô đơn vắng tanh<br>Đời em đã mất anh rồi.<br><br>Ước gì cho thời gian trở lại<br>Ước gì em gặp anh một lần<br>Em sẽ nói em luôn nhớ anh <br>Và em chỉ có anh thôi.<br>",
       "locationTag": [
         {
           "locationTagName": "contentLike1",
-          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkDetail": "/detail.html?id=1&type=audio",
           "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/96/a7/79/6180f8a7e30d7.jpg"
         },
 		{
@@ -59,6 +61,8 @@
     {
       "id": 2,
       "songName": "Mùa Hè",
+	  "linkAudio": "",
+	  "linkVideo": "video/mov_bbb.mp4",
       "singer": [
         {
           "el1": "Tuấn Vũ",
@@ -82,7 +86,7 @@
       "locationTag": [
         {
           "locationTagName": "contentLike1",
-          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkDetail": "/detail.html?id=2&type=video",
           "linkImgDetail": "http://imedia.imuzik.com.vn/media2/images/song/96/a7/79/6180f8a7e30d7.jpg"
         },
 		{
@@ -110,6 +114,8 @@
 	{
       "id": 3,
       "songName": "Mùa Thu",
+	  "linkAudio": "",
+	  "linkVideo": "",
       "singer": [
         {
           "el1": "Tuấn Vũ",
@@ -182,6 +188,8 @@
 	{
       "id": 4,
       "songName": "Mùa Đông",
+	  "linkAudio": "",
+	  "linkVideo": "",
       "singer": [
         {
           "el1": "Khương Duy",
@@ -223,6 +231,8 @@
 	{
       "id": 5,
       "songName": "Mùa Đông",
+	  "linkAudio": "",
+	  "linkVideo": "",
       "singer": [
         {
           "el1": "Khương Duy",
@@ -264,6 +274,8 @@
 	{
       "id": 6,
       "songName": "Ai muốn nghe không",
+	  "linkAudio": "",
+	  "linkVideo": "",
       "singer": [
         {
           "el1": "Đen",
@@ -310,6 +322,8 @@
 	{
       "id": 7,
       "songName": "Mùa Đông",
+	  "linkAudio": "",
+	  "linkVideo": "",
       "singer": [
         {
           "el1": "Đen",
@@ -371,6 +385,8 @@
 	{
       "id": 8,
       "songName": "Ai muốn nghe không",
+	  "linkAudio": "",
+	  "linkVideo": "",
       "singer": [
         {
           "el1": "Đen",

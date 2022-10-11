@@ -64,9 +64,6 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">CA SỸ</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT US</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -230,14 +227,14 @@
         <div class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">	
-                        
+                    <div class="col-md-12">
+
                         <p class="link">
-                            <a href="/">Trang chủ</a>      
+                            <a href="/">Trang chủ</a>
                             <a href="/huong-dan/gioi-thieu">Giới thiệu</a>
                             <a href="/huong-dan/dieu-khoan-su-dung">Điều khoản sử dụng</a>
-                                                    <a href="javascript:void(0);" class="user">Góp ý/Báo lỗi</a>
-                                                <a href="/huong-dan/cau-hoi-thuong-gap">Câu hỏi thường gặp</a>
+                            <a href="javascript:void(0);" class="user">Góp ý/Báo lỗi</a>
+                            <a href="/huong-dan/cau-hoi-thuong-gap">Câu hỏi thường gặp</a>
                         </p>
                         <p class="text-copyright">
                             <span class="text-copyright">Copyright © MusicWhere.</span>
@@ -247,7 +244,7 @@
                 </div>
             </div>
         </div>
-       
+
 </body>
 
 
@@ -406,6 +403,12 @@
         return fieldHTML;
     }
 
+    $(document).ready(function () {
+        $(".logo").click(function () {
+            window.location.href = './index.html';
+        });
+
+    });
 </script>
 
 
