@@ -18,7 +18,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdn.logwork.com/widget/digital.js"></script>
   <script src="https://cdn.logwork.com/widget/text.js"></script>
@@ -35,40 +35,36 @@
   <div class="header fixed-top">
     <div class="container">
       <div class="row">
-        <div class="col-md-2">
-          <div class="logo">
-            MusicWheress
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="\">MusicWheress</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">BÀI HÁT HOT</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">CHỦ ĐỀ</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">THỂ LOẠI</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">CA SỸ</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                      <button class="btn btn-outline-light" type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+              </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="row">
-            <div class="search" style="display: inline-flex;">
-              <!-- <i class="fa fa-search"></i> -->
-              <input type="text" class="form-control" placeholder="Tìm kiếm bài hát">
-              <button class="btn btn-light">Search</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="">
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link " href="#">BÀI HÁT HOT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CHỦ ĐỀ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">THỂ LOẠI</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CA SỸ</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-
+      </nav>
       </div>
 
     </div>
