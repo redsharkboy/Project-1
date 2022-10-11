@@ -117,8 +117,7 @@
                   <label for="email" class="form-label">Bạn hãy nhập địa chỉ Email và để lại bình
                     luận
                     nhé</label>
-                  <input type="email" class="form-control" id="email"
-                    placeholder="binhluan@fpt.edu.com" required>
+                  <input type="email" class="form-control" id="email" placeholder="binhluan@fpt.edu.com" required>
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label">Nội dung</label>
@@ -142,22 +141,21 @@
                     </div>
                     <div class="modal-body">
                       <p>
-                        Từ: <strong id="commentFrom">binhluan@fpt.edu.com</strong>
+                        Từ: <strong id="commentFrom"></strong>
                       </p>
                       <p>
-                        Đến: <strong id="commentTo">binhluan@fpt.edu.com</strong>
+                        Đến: <strong id="commentTo"></strong>
                       </p>
                       <br>
                       <p>
-                        Bình luận về bài hát / video <strong id="commentSong">Mùa Xuân</strong>
+                        Bình luận về bài hát / video <strong id="commentSong"></strong>
                       </p>
                       <p>
-                        Thể hiện bởi <strong id="commentSinger">Tuấn Vũ, Khương Duy</strong>
+                        Thể hiện bởi <strong id="commentSinger"></strong>
                       </p>
                       <br>
-                      <p id="commentDatail">
-                        Bài hát rất hay. Bài hát rất hay. Bài hát rất hay. Bài hát rất hay. Bài hát rất hay. Bài hát rất
-                        hay.
+                      <p>
+                        Nội Dung: <span id="commentDetail"></spanspan>
                       </p>
                     </div>
                     <div class="modal-footer">
@@ -186,13 +184,14 @@
                           <h1>
                       </div>
 
-                      <p>Bình luận của bạn đã gửi đi thành công. Bạn vui lòng chịu mọi trách nhiệm với phát ngôn của
-                        mình nhé ^^. </p>
+                      <p>Bình luận của bạn đã gửi đi thành công.</p>
+                      <p>Vui lòng chịu mọi trách nhiệm với ngôn từ của mình nhé ^^.</p>
                     </div>
 
                     <div class="modal-footer">
 
-                      <button type="button" style="width:100%" class="btn btn-secondary" data-bs-dismiss="modal">OK
+                      <button type="button" style="width:100%" class="btn btn-secondary" onclick="resetComment()"
+                        data-bs-dismiss="modal">OK
                         chuyện nhỏ</button>
 
                       <!-- <button type="button" class="btn btn-primary">Gửi luôn</button> -->
@@ -451,15 +450,15 @@
   });
 
   let singer1;
-    let singer2 ;
-    let songName ;
+  let singer2;
+  let songName;
 
   function showDetailItem(items) {
     console.log(items);
     let lyricSong = items.lyrics;
-     singer1 = items.singer[0].el1;
-     singer2 = items.singer[0].el2;
-     songName = items.songName;
+    singer1 = items.singer[0].el1;
+    singer2 = items.singer[0].el2;
+    songName = items.songName;
 
     let audioTag = '<audio src="' + items.linkAudio + '" controls></audio>'
     let videoTag = '<video width="400" controls><source src="' + items.linkVideo + '" type="video/mp4">Your browser does not support HTML video.</video>'
@@ -556,16 +555,23 @@
     return false;
   });
 
-  
+
 
   function sendComment() {
-    let email = $('#email').val();
+    let emailFrom = $('#email').val();
+    let emailTo = "binhluanmusicwhere.com.vn"
     let detailComment = $('#exampleFormControlTextarea1').val();
-    $('#commentFrom').text(email);
-    $('#commentTo').text(email);
-    $('#commentDatail').text(detailComment);
-
+    $('#commentFrom').text(emailFrom);
+    $('#commentTo').text(emailTo);
+    $('#commentDetail').text(detailComment);
+    $('#commentSong').text(songName);
+    $('#commentSinger').text(singer1 + ', ' + singer2);
   }
+  function resetComment() {
+    $('#email').val("");
+    $('#exampleFormControlTextarea1').val("");
+  }
+
 </script>
 
 
