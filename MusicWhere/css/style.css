@@ -22,21 +22,15 @@ u {
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color: #1b2039;
+    background-color: #212529;
     height: 60px;
 }
 
 .header {
     color: #fff;
-    background-color: #14182a;
+    background-color: #212529;
 
     margin: auto;
-}
-
-.logo {
-    float: left;
-    font-size: 24px;
-    /* line-height: 28px; */
 }
 
 .ms_top_trend {
@@ -220,6 +214,13 @@ hr {
     border-top: none;
 }
 
+.tabcontents {
+    display: none;
+    padding: 6px 12px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+}
+
 #timeLive {
     display: none;
     position: fixed;
@@ -252,13 +253,18 @@ hr {
 .media>.pull-left {
     padding-right: 10px;
 }
-.song-name, a.song-name {
+
+.song-name,
+a.song-name {
     color: #333333;
 }
-.singer-name, .singer-name a {
+
+.singer-name,
+.singer-name a {
     color: #6e6e6e !important;
     font-size: 12px;
 }
+
 .mdl-songs .media {
     position: relative;
     border-top: 1px solid #e5e5e5;
@@ -266,9 +272,11 @@ hr {
     margin: 0;
     width: 100%;
 }
+
 .mdl-songs .media:last-child {
     border-bottom: 1px solid #e5e5e5;
 }
+
 .mdl-songs .overlay {
     position: absolute;
     right: 0;
@@ -278,19 +286,238 @@ hr {
     padding-left: 70px;
     display: none;
 }
+
 .mdl-billboard .media {
     position: relative;
     border-top: 1px solid #e5e5e5;
     padding: 10px 0;
     margin: 0;
 }
+
 .mdl-billboard .media-right {
     font-size: 36px;
     font-family: LatoThin;
 }
+
 .media-body {
     width: 10000px;
 }
+
 .mdl-billboard .media:last-child {
     border-bottom: 1px solid #e5e5e5;
+}
+
+.image-topic {
+    width: 100%;
+    /* min-width: 310px; */
+}
+
+.footer {
+    background: #f4f4f4;
+    padding: 25px 0 35px 0;
+    color: #848484;
+    line-height: normal;
+    font-size: 13px;
+    clear: both;
+}
+
+.footer a {
+    color: #383838;
+    padding-right: 20px;
+}
+
+.mdl-songs img {
+    margin-bottom: 0;
+}
+
+.audio-mp3 audio {
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.lyric {
+    position: relative;
+    /* width: 798px; */
+    /* float: left; */
+    padding: 5px 0px;
+    border: #e3e3e3 solid 1px;
+    padding: 10px 20px;
+    margin: 20px 0 20px 0;
+}
+
+.lyric .pd_name_lyric {
+    /* width: 798px; */
+    /* float: left; */
+    border-bottom: #dbdbdb solid 1px;
+    padding: 0px 0px 5px 0px;
+    margin-bottom: 8px;
+}
+
+.lyric .pd_name_lyric .name_lyric {
+    /* float: left; */
+    font-size: 18px;
+    /* width: 798px; */
+    margin: 0px;
+    font-weight: 500;
+}
+
+.lyric {
+    padding: 20px 20px;
+}
+
+.lyric #lyricBody {
+    float: left;
+    line-height: 28px;
+    background: transparent url(https://stc-id.nixcdn.com/v11/images/line_lyric.png) left -5px;
+    /* max-height: 250px; */
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    width: 100%;
+}
+
+.modal-body p {
+    margin-bottom: auto;
+}
+
+.checkmark-circle {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.checkmark-circle .background {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #1ab394;
+    position: absolute;
+}
+
+.checkmark-circle .checkmark {
+    border-radius: 5px;
+}
+
+.checkmark-circle .checkmark.draw:after {
+    -webkit-animation-delay: 300ms;
+    -moz-animation-delay: 300ms;
+    animation-delay: 300ms;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-name: checkmark;
+    -moz-animation-name: checkmark;
+    animation-name: checkmark;
+    -webkit-transform: scaleX(-1) rotate(135deg);
+    -moz-transform: scaleX(-1) rotate(135deg);
+    -ms-transform: scaleX(-1) rotate(135deg);
+    -o-transform: scaleX(-1) rotate(135deg);
+    transform: scaleX(-1) rotate(135deg);
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.checkmark-circle .checkmark:after {
+    opacity: 1;
+    height: 75px;
+    width: 37.5px;
+    -webkit-transform-origin: left top;
+    -moz-transform-origin: left top;
+    -ms-transform-origin: left top;
+    -o-transform-origin: left top;
+    transform-origin: left top;
+    border-right: 15px solid #fff;
+    border-top: 15px solid #fff;
+    border-radius: 2.5px !important;
+    content: '';
+    left: 35px;
+    top: 80px;
+    position: absolute;
+}
+
+@-webkit-keyframes checkmark {
+    0% {
+        height: 0;
+        width: 0;
+        opacity: 1;
+    }
+
+    20% {
+        height: 0;
+        width: 37.5px;
+        opacity: 1;
+    }
+
+    40% {
+        height: 75px;
+        width: 37.5px;
+        opacity: 1;
+    }
+
+    100% {
+        height: 75px;
+        width: 37.5px;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes checkmark {
+    0% {
+        height: 0;
+        width: 0;
+        opacity: 1;
+    }
+
+    20% {
+        height: 0;
+        width: 37.5px;
+        opacity: 1;
+    }
+
+    40% {
+        height: 75px;
+        width: 37.5px;
+        opacity: 1;
+    }
+
+    100% {
+        height: 75px;
+        width: 37.5px;
+        opacity: 1;
+    }
+}
+
+@keyframes checkmark {
+    0% {
+        height: 0;
+        width: 0;
+        opacity: 1;
+    }
+
+    20% {
+        height: 0;
+        width: 37.5px;
+        opacity: 1;
+    }
+
+    40% {
+        height: 75px;
+        width: 37.5px;
+        opacity: 1;
+    }
+
+    100% {
+        height: 75px;
+        width: 37.5px;
+        opacity: 1;
+    }
 }

@@ -3,143 +3,573 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Album</title>
+  <title>MusicWhere</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <meta name="viewport"
+    content="width=device-width, maximum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
   <link
     href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/style.css" rel="stylesheet">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <!-- integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.logwork.com/widget/digital.js"></script>
+  <script src="https://cdn.logwork.com/widget/text.js"></script>
 </head>
 
 <body>
-  <div class="top">
-    <div class="logo">
-      MusicWhere
-    </div>
-    <div class="ms_top_trend">
-      <span class="ms-color">Trending Songs :</span> Dream your moment, Until I Met You, Gim
-    </div>
+  <div id="timeLive">
+    <a href="https://logwork.com/current-time-in-hanoi-vietnam-ha-noi" id="nameTime" class="digital-clock"
+      data-style="flip" data-size="250" data-timezone="Asia/Phnom_Penh" data-language="vi">Current time in Hanoi,
+      Vietnam</a>
+    <!-- <a href="https://logwork.com/current-time-in-hanoi-vietnam-ha-noi" class="clock-widget-text" data-width="240" data-timezone="Asia/Phnom_Penh" data-language="vi">Hanoi, Vietnam</a> -->
   </div>
-  <div class="main">
-    <div class="about row center padding-32">
-      <h1 class="ms-color">Despacito</h1>
-      <img src="img/banner.png" alt="Me" class="w3-image">
-      <audio src="audio/Despacito-J-Fla.mp3" controls></audio>
-      <div id="download">
-        <a href="#"><button class="btn"
-          style="  background-color: transparent;border: none;color: white;padding: 12px 30px;cursor: pointer;font-size: 20px;"><i class="fa fa-download"></i> Download</button>
-      </div></a>
-        
-      <div class="padding-32">
-        <h4>Singer: J.Fla</h4>
-        <p>Sí
-          Sabes que ya llevo un rato mirándote <br />
-          Tengo que bailar contigo hoy (DY) <br />
-          Vi que tu mirada ya estaba llamándome <br />
-          Muéstrame el camino que yo voy <br />
-          Oh, tú, tú eres el imán y yo soy el metal <br />
-          Me voy acercando y voy armando el plan <br />
-          Solo con pensarlo se acelera el pulso (oh yeah) <br />
-          Ya, ya me estás gustando más de lo normal <br />
-          Todos mis sentidos van pidiendo más <br />
-          Esto hay que tomarlo sin ningún apuro <br />
-          Despacito <br />
-          Quiero respirar tu cuello despacito <br />
-          Deja que te diga cosas al oído <br />
-          Para que te acuerdes si no estás conmigo <br />
-          Despacito <br />
-          Quiero desnudarte a besos despacito <br />
-          Firmar las paredes de tu laberinto <br />
-          Y hacer de tu cuerpo todo un manuscrito (sube, sube, sube) <br />
-          (Sube, sube) Oh <br />
-          Quiero ver bailar tu pelo <br />
-          Quiero ser tu ritmo (uh oh, uh oh) <br />
-          Que le enseñes a mi boca (uh oh, uh oh) <br />
-          Tus lugares favoritos (favoritos, favoritos baby) <br />
-          Déjame sobrepasar tus zonas de peligro (uh oh, uh oh) <br />
-          Hasta provocar tus gritos (uh oh, uh oh) <br />
-          Y que olvides tu apellido (dirididi Daddy) <br />
-          Yo sé que estás pensándolo (eh) <br />
-          Llevo tiempo intentándolo (eh) <br />
-          Mami, esto es dando y dándolo <br />
-          Sabes que tu corazón conmigo te hace bam bam <br />
-          Sabe que esa beba 'tá buscando de mi bam bam <br />
-          Ven prueba de mi boca para ver cómo te sabe <br />
-          Quiero, quiero, quiero ver cuánto amor a ti te cabe <br />
-          Yo no tengo prisa, yo me quiero dar el viaje <br />
-          Empezamo' lento, después salvaje <br />
-          Pasito a pasito, suave suavecito <br />
-          Nos vamos pegando poquito a poquito <br />
-          Cuando tú me besas con esa destreza <br />
-          Veo que eres malicia con delicadeza <br />
-          Pasito a pasito, suave suavecito <br />
-          Nos vamos pegando, poquito a poquito (oh oh) <br />
-          Y es que esa belleza es un rompecabezas (oh no) <br />
-          Pero pa' montarlo aquí tengo la pieza (slow, oh yeah) <br />
-          Despacito (yeh, yo) <br />
-          Quiero respirar tu cuello despacito (yo) <br />
-          Deja que te diga cosas al oído (yo) <br />
-          Para que te acuerdes si no estás conmigo <br />
-          Despacito <br />
-          Quiero desnudarte a besos despacito (yeh) <br />
-          Firmar las paredes de tu laberinto <br />
-          Y hacer de tu cuerpo todo un manuscrito (sube, sube, sube) <br />
-          (Sube, sube) Oh <br />
-          Quiero ver bailar tu pelo <br />
-          Quiero ser tu ritmo (uh oh, uh oh) <br />
-          Que le enseñes a mi boca (uh oh, uh oh) <br />
-          Tus lugares favoritos (favoritos, favoritos baby) <br />
-          Déjame sobrepasar tus zonas de peligro (uh oh, uh oh) <br />
-          Hasta provocar tus gritos (uh oh, uh oh) <br />
-          Y que olvides tu apellido <br />
-          Despacito
-        </p>
+  <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+  <div class="header fixed-top">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="\">MusicWheress</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">BÀI HÁT HOT</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">CHỦ ĐỀ</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">THỂ LOẠI</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">CA SỸ</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                      <button class="btn btn-outline-light" type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+              </div>
+          </div>
+      </nav>
+      </div>
+
+    </div>
+
+  </div>
+
+  </div>
+
+
+  <div class="wrap-content" style="padding-top: 50px">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <div class="mdl-detail-song">
+            <div class="title">
+              <span class="txt" id="titleSong"></span>
+            </div>
+            <div class="txt-singer" id="titleSinger"></div>
+
+            <div class="audio-mp3">
+              <div class="row" id="showVideoAudio">
+
+              </div>
+            </div>
+            <div class="lyric">
+              <div class="pd_name_lyric">
+                <h2 class="name_lyric"></h2>
+                <p class="name_singer"></p>
+              </div>
+
+              <div class="collapse" id="lyricContent">
+                <div class="card card-body">
+                  <p id="lyricBody">
+                    <!-- Auto Genegate Content -->
+                  </p>
+                </div>
+              </div>
+              <p style="padding-top: 10px;">
+                <a class="btn btn-primary" id="btnShowLyric" data-bs-toggle="collapse" href="#lyricContent"
+                  role="button" aria-expanded="false" aria-controls="collapseExample">Xem Lời Bài Hát</a>
+              </p>
+            </div>
+            <div class="comment">
+              <form id="basic-form" action="" method="post">
+                <div class="mb-3">
+                  <label for="email" class="form-label">Bạn hãy nhập địa chỉ Email và để lại bình
+                    luận
+                    nhé</label>
+                  <input type="email" class="form-control" id="email" placeholder="binhluan@fpt.edu.com" required>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Nội dung</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Tối đa 2000 kí tự"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" data-bs-toggle="modal">
+                  Gửi bình luận
+                </button>
+              </form>
+
+
+              <!-- Modal -->
+              <div class="modal fade" id="commentModal" tabindex="-1" aria-labelledby="mocalComment" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="mocalComment">Xác Nhận Gửi Bình Luận</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Từ: <strong id="commentFrom"></strong>
+                      </p>
+                      <p>
+                        Đến: <strong id="commentTo"></strong>
+                      </p>
+                      <br>
+                      <p>
+                        Bình luận về bài hát / video <strong id="commentSong"></strong>
+                      </p>
+                      <p>
+                        Thể hiện bởi <strong id="commentSinger"></strong>
+                      </p>
+                      <br>
+                      <p>
+                        Nội Dung: <span id="commentDetail"></spanspan>
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thôi xin</button>
+                      <!-- <button type="button" class="btn btn-primary">Gửi luôn</button> -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sendModal">
+                        Gửi luôn
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="sendModal" tabindex="-1" aria-labelledby="mocalComment" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="mocalComment">THÀNH CÔNG</h5>
+                    </div>
+                    <div class="modal-body">
+                      <div>
+                        <h1 style="text-align:center;">
+                          <div class="checkmark-circle">
+                            <div class="background"></div>
+                            <div class="checkmark draw"></div>
+                          </div>
+                          <h1>
+                      </div>
+
+                      <p>Bình luận của bạn đã gửi đi thành công.</p>
+                      <p>Vui lòng chịu mọi trách nhiệm với ngôn từ của mình nhé ^^.</p>
+                    </div>
+
+                    <div class="modal-footer">
+
+                      <button type="button" style="width:100%" class="btn btn-secondary" onclick="resetComment()"
+                        data-bs-dismiss="modal">OK
+                        chuyện nhỏ</button>
+
+                      <!-- <button type="button" class="btn btn-primary">Gửi luôn</button> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="mdl-1 mdl-songs">
+
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contentNew1">
+                <div class="title">
+                  <span href="javascript:void(0);" class="txt"> CÙNG CA SĨ</span>
+                </div>
+                <!-- Auto Genegate Content -->
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contentNew2">
+                <div class="title">
+                  <span href="javascript:void(0);" class="txt"> CÙNG THỂ LOẠI</span>
+                </div>
+                <!-- Auto Genegate Content -->
+              </div>
+            </div>
+          </div>
+          <div class="mdl-1 mdl-songs">
+            <div class="title">
+              <a href="/bai-hat-co-the-ban-thich" class="txt"> CÓ THỂ BẠN THÍCH</a>
+              <a href="/bai-hat-co-the-ban-thich?listen=true" class="bg-color-01 listen-all listen-all2">
+                <i class="fa icon-play2"></i>
+              </a>
+              <!--<a class="pull-right view-all" href="/bai-hat-co-the-ban-thich"><span class="txt-3">XEM THÊM </span> <i class="fa fa-angle-double-right"></i> </a>-->
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contentLike1">
+                <!-- Auto Genegate -->
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contentLike2">
+                <!-- Auto Genegate -->
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="mdl-1 mdl-billboard">
+            <div class="title ellipsis">
+              <a href="/bang-xep-hang" class="txt"> BÀI HÁT HOT</a>
+            </div>
+
+            <!-- <ul class="nav nav-pills" role="tablist">
+                            <li class="active"><a href="#viet-nam" role="tab" data-toggle="tab">Việt Nam</a></li>
+                            <li class=""><a href="#us-uk" role="tab" data-toggle="tab">US/UK</a></li>
+                            <li class=""><a href="#sang-tao" role="tab" data-toggle="tab">Sáng tạo</a></li>
+                        </ul> -->
+            <div class="tab nav-pills">
+              <button class="tablinks btn active" onclick="openAlbumHot(event, 'tap1')">Việt Nam</button>
+              <button class="tablinks btn" onclick="openAlbumHot(event, 'tap2')">US/UK</button>
+              <button class="tablinks btn" onclick="openAlbumHot(event, 'tap3')">Sáng tạo</button>
+            </div>
+
+            <div id="tap1" class="tabcontent" style="display: block;">
+              <!-- Auto Genegate -->
+            </div>
+
+            <div id="tap2" class="tabcontent">
+              <!-- Auto Genegate -->
+            </div>
+
+            <div id="tap3" class="tabcontent">
+              <!-- Auto Genegate -->
+            </div>
+          </div>
+          <div class="mdl-1 mdl-songs" id="whatListen">
+            <div class="title">
+              <span href="javascript:void(0);" class="txt"> HÔM NAY NGHE GÌ?</span>
+            </div>
+            <!-- Auto Genegate -->
+          </div>
+          <div class="mdl-1 mdl-billboard">
+            <div class="title ellipsis">
+              <a href="/bang-xep-hang" class="txt"> TẢI NHIỀU NHẤT</a>
+            </div>
+
+            <!-- <ul class="nav nav-pills" role="tablist">
+                            <li class="active"><a href="#viet-nam" role="tab" data-toggle="tab">Việt Nam</a></li>
+                            <li class=""><a href="#us-uk" role="tab" data-toggle="tab">US/UK</a></li>
+                            <li class=""><a href="#sang-tao" role="tab" data-toggle="tab">Sáng tạo</a></li>
+                        </ul> -->
+            <div class="tab nav-pills">
+              <button class="tablinkss btn active" onclick="openAlbumDownload(event, 'tap4')">Tuần</button>
+              <button class="tablinkss btn" onclick="openAlbumDownload(event, 'tap5')">Tháng</button>
+            </div>
+
+            <div id="tap4" class="tabcontents" style="display: block;">
+              <!-- Auto Genegate -->
+            </div>
+
+            <div id="tap5" class="tabcontents">
+              <!-- Auto Genegate -->
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <hr>
+      <div>
+        <span> Lượt truy cập: </span>
+        <span id="CounterVisitor"> </span>
       </div>
     </div>
-  </div>
-  <div class="footer row padding-32">
-    <div class="third">
-      <h3 class="ms-color">MusicWhere Stations</h3>
-      <p>Dream Your moment, Until I Met You, Gimme Some Courage, Dark Alley, One More Of a Stranger, Endless<br>
-        Thing, The Heartbeat Stops, Waling Promises, Desired Games and many more...</p>
-      <p>
-        Powered by <a href="#">aptech.ac.vn</a>
-      </p>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <p class="link">
+              <a href="/">Trang chủ</a>
+              <a href="/huong-dan/gioi-thieu">Giới thiệu</a>
+              <a href="/huong-dan/dieu-khoan-su-dung">Điều khoản sử dụng</a>
+              <a href="javascript:void(0);" class="user">Góp ý/Báo lỗi</a>
+              <a href="/huong-dan/cau-hoi-thuong-gap">Câu hỏi thường gặp</a>
+            </p>
+            <p class="text-copyright">
+              <span class="text-copyright">Copyright © MusicWhere.</span>
+              <span>Số 8, Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, HN</span>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="third">
-      <h3 class="ms-color">Download Our App</h3>
-      <p>Go Mobile with our app.
-        Listen to your favourite song at just one click. Download Now !
-      </p>
-      <a href="#"><img src="img/google_play.jpg" alt=""></a>
-      <a href="#"><img src="img/app_store.jpg" alt=""></a>
-      <a href="#"><img src="img/windows.jpg" alt=""></a>
-    </div>
-    <div class="third">
-      <h3 class="ms-color">Contact Us</h3>
-      <p><span class="con-title">Call us :</span>
-        <span>(+84) 24-7300-8855,(+84) 24-7300-8866, </span>
-      </p>
-      <p><span class="con-title">Email us</span>
-        <span><a href="#">demo@gmail.com</a><a href="#">fpt-aptech@gmail.com</a></span>
-      </p>
-      <p><span class="co-title">Walk in :</span>
-        <span>Số 8, Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, HN</span> <br />
-        <span>590 Cách Mạng Tháng Tám, Quận 3, TPHCM</span>
-      </p>
-    </div>
-  </div>
+
 </body>
+
+
+
 <script>
-  $(document).ready(function(){
-    $(".logo").click(function(){
-    window.location.href='./index.html';
+
+
+
+
+  let d = new Date();
+  let month = d.getMonth() + 1;
+  let day = d.getDate();
+  let output = (day < 10 ? '0' : '') + day + '/' +
+    (month < 10 ? '0' : '') + month + '/' +
+    d.getFullYear();
+  console.log("in scroll display = block")
+  console.log(output)
+  let outDate = "Hà Nội, " + output
+  $('#nameTime').text(outDate);
+
+  $(document).ready(function () {
+    $(".item").click(function () {
+      window.location.href = './detail.html';
     });
-    $("#download").click(function (e) {
-          e.preventDefault();
-          window.location.href = "audio/Despacito-J-Fla.mp3";
-      });
   });
-  </script>
+
+  let n = localStorage.getItem('on_load_counter');
+
+  if (n === null) {
+    n = 0;
+  }
+  n++;
+
+  localStorage.setItem("on_load_counter", n);
+
+  nums = n.toString().split('').map(Number);
+  document.getElementById('CounterVisitor').innerHTML = nums.join('');
+
+  function openAlbumHot(evt, albumName) {
+    let i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(albumName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  function openAlbumDownload(evt, albumName) {
+    let i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontents");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinkss");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(albumName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  // Get the button
+  let mybutton = document.getElementById("timeLive");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+      // mybutton.textContent =
+    } else {
+      console.log("in scroll display = none")
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  // function refreshTime() {
+  //     const timeDisplay = document.getElementById("timeLive");
+  //     const dateString = new Date().toLocaleString();
+  //     const formattedString = dateString.replace(", ", " - ");
+
+  //     timeDisplay.textContent = formattedString + Intl.DateTimeFormat().resolvedOptions().timeZone;
+  // }
+  // setInterval(refreshTime, 1000);
+  let countTab = 1;
+  let countTab1 = 1;
+  let countTab2 = 1;
+
+  let searchParams = new URLSearchParams(window.location.search)
+  let idItem = searchParams.get('id')
+  let typeItem = searchParams.get('type')
+
+  $(document).ready(function () {
+    $.getJSON("data/data.json", function (data) {
+
+      data.items.forEach(function (item) {
+        if (item.id == idItem) {
+          showDetailItem(item)
+        }
+        createTemplate(item);
+      });
+    }).fail(function () {
+      console.log("An error has occurred.");
+    });
+
+  });
+
+  let singer1;
+  let singer2;
+  let songName;
+
+  function showDetailItem(items) {
+    console.log(items);
+    let lyricSong = items.lyrics;
+    singer1 = items.singer[0].el1;
+    singer2 = items.singer[0].el2;
+    songName = items.songName;
+
+    let audioTag = '<audio src="' + items.linkAudio + '" controls></audio>'
+    let videoTag = '<video width="400" controls><source src="' + items.linkVideo + '" type="video/mp4">Your browser does not support HTML video.</video>'
+    if (typeItem == "audio") {
+      $('#showVideoAudio').append(audioTag);
+    } else if (typeItem == "video") {
+      $('#showVideoAudio').append(videoTag);
+    }
+    $('#lyricBody').append(lyricSong);
+    $('#titleSong').text(items.songName);
+    $('.name_lyric').text('Lời bài hát: ' + items.songName);
+
+    $('#titleSinger').text(singer1 + ',' + singer2);
+    $('.name_singer').text('Ca sĩ: ' + singer1 + ',' + singer2);
+
+  }
+  function createTemplate(item) {
+    item.locationTag.forEach(function (element) {
+      let fieldHTML = null;
+      switch (element.locationTagName) {
+        case "contentLike1":
+        case "contentLike2":
+        case "contentDownload":
+        case "contentNew1":
+        case "contentNew2":
+        case "whatListen":
+        case "tap4":
+        case "tap5":
+          fieldHTML = '<div class="media"><div class="media-left"><a href="' + element.linkDetail + '"><img class="media-object" src="' + element.linkImgDetail + '" onerror="this.src=\'img/4x4.png\';" width="48" alt="..."></a></div><div class="media-body" style="width: 285px;"><a href="' + element.linkDetail + '" class="song-name ellipsis" title="' + item.songName + '" style="max-width: 244px;"> ' + item.songName + ' </a><p class="singer-name ellipsis" title="' + item.singer[0].el1 + ',' + item.singer[0].el2 + '" style="max-width: 244px;">' + item.singer[0].el1 + ',' + item.singer[0].el2 + '</p></div></div>';
+          break;
+        case "contentHot":
+          fieldHTML = '<p><a href="' + element.linkDetail + '"><img src="' + element.linkImgDetail + '" class="image-topic" alt="" onerror="this.src=\'/images/onbox_02.jpg\';" title="' + element.linkDetail + '"></a></p>';
+          break;
+        case "tap1":
+          fieldHTML = '<div class="media"><div class="media-left"><a href="' + element.linkDetail + '"><img class="media-object" src="' + element.linkImgDetail + '" onerror="this.src=\'img/4x4.png\';" width="48" alt="..."></a></div><div class="media-body" ><a href="' + element.linkDetail + '" class="song-name ellipsis" title="' + item.songName + '" style="max-width: 187px;"> ' + item.songName + ' </a><p class="singer-name ellipsis" title="' + item.singer[0].el1 + ',' + item.singer[0].el2 + '" style="max-width: 187px;">' + item.singer[0].el1 + ',' + item.singer[0].el2 + '</p></div>';
+          fieldHTML += genegateHotList(countTab);
+          countTab++;
+          break;
+        case "tap2":
+          fieldHTML = '<div class="media"><div class="media-left"><a href="' + element.linkDetail + '"><img class="media-object" src="' + element.linkImgDetail + '" onerror="this.src=\'img/4x4.png\';" width="48" alt="..."></a></div><div class="media-body" ><a href="' + element.linkDetail + '" class="song-name ellipsis" title="' + item.songName + '" style="max-width: 187px;"> ' + item.songName + ' </a><p class="singer-name ellipsis" title="' + item.singer[0].el1 + ',' + item.singer[0].el2 + '" style="max-width: 187px;">' + item.singer[0].el1 + ',' + item.singer[0].el2 + '</p></div>';
+          fieldHTML += genegateHotList(countTab1);
+          countTab1++;
+          break;
+        case "tap3":
+          fieldHTML = '<div class="media"><div class="media-left"><a href="' + element.linkDetail + '"><img class="media-object" src="' + element.linkImgDetail + '" onerror="this.src=\'img/4x4.png\';" width="48" alt="..."></a></div><div class="media-body" ><a href="' + element.linkDetail + '" class="song-name ellipsis" title="' + item.songName + '" style="max-width: 187px;"> ' + item.songName + ' </a><p class="singer-name ellipsis" title="' + item.singer[0].el1 + ',' + item.singer[0].el2 + '" style="max-width: 187px;">' + item.singer[0].el1 + ',' + item.singer[0].el2 + '</p></div>';
+          fieldHTML += genegateHotList(countTab2);
+          countTab2++;
+          break;
+      }
+      let idName = "#" + element.locationTagName
+      $(idName).append(fieldHTML);
+    });
+
+  }
+  function genegateHotList(item) {
+    let fieldHTML = "";
+    if (item == 1) {
+      fieldHTML += '<div class="media-right text-danger">'
+    } else if (item == 2) {
+      fieldHTML += '<div class="media-right text-success">'
+    } else if (item == 3) {
+      fieldHTML += '<div class="media-right text-primary">'
+    } else {
+      fieldHTML += '<div class="media-right">'
+    }
+    fieldHTML += '' + item > 9 ? "" + item : "0" + item; +'</div></div>';
+    return fieldHTML;
+  }
+
+  $(document).ready(function () {
+    $(".logo").click(function () {
+      window.location.href = './index.html';
+    });
+
+  });
+
+  $(document).ready(function () {
+    $("#btnShowLyric").click(function () {
+      let txtData;
+      console.log($("#btnShowLyric").text());
+      if ($("#btnShowLyric").text() == "Xem Lời Bài Hát") {
+        txtData = "Ẩn Lời Bài Hát";
+      } else {
+        txtData = "Xem Lời Bài Hát";
+      }
+      $("#btnShowLyric").text(txtData);
+
+    });
+  });
+
+  $("#basic-form").submit(function (e) {
+    $('#commentModal').modal('show');
+    sendComment();
+    return false;
+  });
+
+
+
+  function sendComment() {
+    let emailFrom = $('#email').val();
+    let emailTo = "binhluanmusicwhere.com.vn"
+    let detailComment = $('#exampleFormControlTextarea1').val();
+    $('#commentFrom').text(emailFrom);
+    $('#commentTo').text(emailTo);
+    $('#commentDetail').text(detailComment);
+    $('#commentSong').text(songName);
+    $('#commentSinger').text(singer1 + ', ' + singer2);
+  }
+  function resetComment() {
+    $('#email').val("");
+    $('#exampleFormControlTextarea1').val("");
+  }
+
+</script>
+
+
 </html>
