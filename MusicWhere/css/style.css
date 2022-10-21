@@ -521,3 +521,29 @@ a.song-name {
         opacity: 1;
     }
 }
+
+.cardMv {
+    /* width: 130px; */
+    /* height: 195px; */
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1rem;
+    /* margin: 50px; */
+}
+.cardMv .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    opacity: 0.5;
+    /* width: 100%;
+    height: 100%; */
+}
+.cardMv:hover .img-top {
+    display: inline;
+}
+
+/* .mdl-1 mdl-songs{
+    img
+} */

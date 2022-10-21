@@ -61,8 +61,10 @@
                                 </li>
                             </ul>
                             <form class="d-flex">
-                                <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
-                                <button class="btn btn-outline-light" type="submit"><i class="fa fa-search"></i></button>
+                                <input class="form-control me-2" type="search" placeholder="Tìm kiếm"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-light" type="submit"><i
+                                        class="fa fa-search"></i></button>
                             </form>
                         </div>
                     </div>
@@ -124,15 +126,28 @@
                     </div>
                     <div class="mdl-1 mdl-songs">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contentHot">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="banerMV">
                                 <div class="title">
-                                    <span href="javascript:void(0);" class="txt"> CHỦ ĐỀ HOT</span>
+                                    <span href="javascript:void(0);" class="txt"> MV</span>
                                 </div>
                                 <!-- Auto Genegate Content -->
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contentDownload">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="contentMV">
                                 <div class="title">
-                                    <span href="javascript:void(0);" class="txt"> TẢI GẦN ĐÂY</span>
+                                    <!-- <span href="javascript:void(0);" class="txt"> TẢI GẦN ĐÂY</span> -->
+                                </div>
+                                <!-- Auto Genegate Content -->
+                                
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="contentMV1">
+                                <div class="title">
+                                    <!-- <span href="javascript:void(0);" class="txt"> TẢI GẦN ĐÂY</span> -->
+                                </div>
+                                <!-- Auto Genegate Content -->
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="contentMV2">
+                                <div class="title">
+                                    <!-- <span href="javascript:void(0);" class="txt"> TẢI GẦN ĐÂY</span> -->
                                 </div>
                                 <!-- Auto Genegate Content -->
                             </div>
@@ -166,8 +181,8 @@
                         </ul> -->
                         <div class="tab nav-pills">
                             <button class="tablinks btn active" onclick="openAlbumHot(event, 'tap1')">Việt Nam</button>
-                            <button class="tablinks btn" onclick="openAlbumHot(event, 'tap2')">US/UK</button>
-                            <button class="tablinks btn" onclick="openAlbumHot(event, 'tap3')">Sáng tạo</button>
+                            <button class="tablinks btn" onclick="openAlbumHot(event, 'tap2')">US-UK</button>
+                            <button class="tablinks btn" onclick="openAlbumHot(event, 'tap3')">K-POP</button>
                         </div>
 
                         <div id="tap1" class="tabcontent" style="display: block;">
@@ -354,7 +369,6 @@
             switch (element.locationTagName) {
                 case "contentLike1":
                 case "contentLike2":
-                case "contentDownload":
                 case "contentNew1":
                 case "contentNew2":
                 case "whatListen":
@@ -363,7 +377,10 @@
                     fieldHTML = '<div class="media"><div class="media-left"><a href="' + element.linkDetail + '"><img class="media-object" src="' + element.linkImgDetail + '" onerror="this.src=\'img/4x4.png\';" width="48" alt="..."></a></div><div class="media-body" style="width: 285px;"><a href="' + element.linkDetail + '" class="song-name ellipsis" title="' + item.songName + '" style="max-width: 244px;"> ' + item.songName + ' </a><p class="singer-name ellipsis" title="' + item.singer[0].el1 + ',' + item.singer[0].el2 + '" style="max-width: 244px;">' + item.singer[0].el1 + ',' + item.singer[0].el2 + '</p></div></div>';
                     break;
                 case "contentHot":
-                    fieldHTML = '<p><a href="' + element.linkDetail + '"><img src="' + element.linkImgDetail + '" class="image-topic" alt="" onerror="this.src=\'/images/onbox_02.jpg\';" title="' + element.linkDetail + '"></a></p>';
+                case "contentMV":
+                case "contentMV1":
+                case "contentMV2":
+                    fieldHTML = '<div class="cardMv"><a href="' + element.linkDetail + '"><img src="' + element.linkImgDetail + '" class="image-topic" alt="" onerror="this.src=\'/images/onbox_02.jpg\';" title="' + element.linkDetail + '"></a><a href="' + element.linkDetail + '" class="img-top"><img src="img/playHover2.jpg" class="image-topic" alt="" onerror="this.src=\'/images/onbox_02.jpg\';" title="' + element.linkDetail + '"></a></div>';
                     break;
                 case "tap1":
                     fieldHTML = '<div class="media"><div class="media-left"><a href="' + element.linkDetail + '"><img class="media-object" src="' + element.linkImgDetail + '" onerror="this.src=\'img/4x4.png\';" width="48" alt="..."></a></div><div class="media-body" ><a href="' + element.linkDetail + '" class="song-name ellipsis" title="' + item.songName + '" style="max-width: 187px;"> ' + item.songName + ' </a><p class="singer-name ellipsis" title="' + item.singer[0].el1 + ',' + item.singer[0].el2 + '" style="max-width: 187px;">' + item.singer[0].el1 + ',' + item.singer[0].el2 + '</p></div>';
@@ -407,6 +424,17 @@
         });
 
     });
+
+    function showVideoOnHover(obj) {
+        $("#image").css("display", "none");
+        $("#youtube").css("display", "block");
+        $("#youtube").attr("src", $(obj).data("src"));
+    }
+    function hideVideo() {
+        $("#youtube").css("display", "none");
+        $("#image").css("display", "block");
+    }
+
 </script>
 
 
