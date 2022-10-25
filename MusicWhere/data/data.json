@@ -225,17 +225,17 @@
 		{
           "locationTagName": "tap2",
           "linkDetail": "/detail.html?id=6&type=audio",
-          "linkImgDetail": "img/bebe_rexha.webp"
+          "linkImgDetail": "img/bebe_rexha.jpg"
         },
 		{
           "locationTagName": "contentLike2",
           "linkDetail": "/detail.html?id=6&type=audio",
-          "linkImgDetail": "img/bebe_rexha.webp"
+          "linkImgDetail": "img/bebe_rexha.jpg"
         },
 		{
           "locationTagName": "whatListen",
           "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
-          "linkImgDetail": "img/bebe_rexha.webp"
+          "linkImgDetail": "img/bebe_rexha.jpg"
         }
       ]
     },
@@ -306,18 +306,18 @@
 		{
           "locationTagName": "tap2",
           "linkDetail": "/detail.html?id=8&type=audio",
-          "linkImgDetail": "https://ringtonefm.com/wp-content/uploads/2022/07/Left-Right-Charlie-Puth.webp"
+          "linkImgDetail": "img/leftandright.webp"
         },
 		{
           "locationTagName": "tap5",
           "linkDetail": "/detail.html?id=8&type=audio",
-          "linkImgDetail": "https://ringtonefm.com/wp-content/uploads/2022/07/Left-Right-Charlie-Puth.webp"
+          "linkImgDetail": "img/leftandright.webp"
         }
       ]
     },
 	{
       "id": 9,
-      "songName": "Glimpse Of Us",
+      "songName": "Smells Like Me",
 	  "linkAudio": "audio/US-UK-mp3/Smells_Like_Me.mp3",
 	  "linkVideo": "",
       "singer": [
@@ -344,12 +344,12 @@
 		{
           "locationTagName": "tap2",
           "linkDetail": "/detail.html?id=9&type=audio",
-          "linkImgDetail": "https://upload.wikimedia.org/wikipedia/vi/f/ff/Charlie_Puth_-_Smell_Like_Me.png"
+          "linkImgDetail": "img/smellslikeme.png"
         },
 		{
           "locationTagName": "contentLike2",
           "linkDetail": "/detail.html?id=9&type=audio",
-          "linkImgDetail": "https://upload.wikimedia.org/wikipedia/vi/f/ff/Charlie_Puth_-_Smell_Like_Me.png"
+          "linkImgDetail": "img/smellslikeme.png"
         }
       ]
     },
@@ -382,12 +382,12 @@
 		{
           "locationTagName": "tap3",
           "linkDetail": "/detail.html?id=10&type=audio",
-          "linkImgDetail": "https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_webp/cover/b/2/8/0/b28051f4e2140d95b9cac5ccb0d739e9.jpg"
+          "linkImgDetail": "img/afterlike.webp"
         },
 		{
           "locationTagName": "tap5",
           "linkDetail": "/detail.html?id=10&type=audio",
-          "linkImgDetail": "https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_webp/cover/b/2/8/0/b28051f4e2140d95b9cac5ccb0d739e9.jpg"
+          "linkImgDetail": "img/afterlike.webp"
         }
       ]
     },
@@ -420,17 +420,17 @@
 		{
           "locationTagName": "tap3",
           "linkDetail": "/detail.html?id=11&type=audio",
-          "linkImgDetail": "https://t2.genius.com/unsafe/432x432/https%3A%2F%2Fimages.genius.com%2F46427cc51f4a4cdd95232a7dd3bbf12a.1000x1000x1.jpg"
+          "linkImgDetail": "img/Collyourrainbow.jpg"
         },
 		{
           "locationTagName": "contentLike1",
           "linkDetail": "/detail.html?id=11&type=audio",
-          "linkImgDetail": "https://t2.genius.com/unsafe/432x432/https%3A%2F%2Fimages.genius.com%2F46427cc51f4a4cdd95232a7dd3bbf12a.1000x1000x1.jpg"
+          "linkImgDetail": "img/Collyourrainbow.jpg"
         },
 		{
           "locationTagName": "tap5",
           "linkDetail": "/detail.html?id=11&type=audio",
-          "linkImgDetail": "https://t2.genius.com/unsafe/432x432/https%3A%2F%2Fimages.genius.com%2F46427cc51f4a4cdd95232a7dd3bbf12a.1000x1000x1.jpg"
+          "linkImgDetail": "img/Collyourrainbow.jpg"
         }
       ]
     },
@@ -463,17 +463,17 @@
 		{
           "locationTagName": "tap3",
           "linkDetail": "/detail.html?id=12&type=audio",
-          "linkImgDetail": "https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_webp/cover/c/6/c/0/c6c057aa53bafcb2858e1000dd2357ea.jpg"
+          "linkImgDetail": "img/shutdowmp3.webp"
         },
 		{
           "locationTagName": "contentLike2",
           "linkDetail": "/detail.html?id=12&type=audio",
-          "linkImgDetail": "https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_webp/cover/c/6/c/0/c6c057aa53bafcb2858e1000dd2357ea.jpg"
+          "linkImgDetail": "img/shutdowmp3.webp"
         },
 		{
           "locationTagName": "tap4",
           "linkDetail": "/detail.html?id=12&type=audio",
-          "linkImgDetail": "https://photo-resize-zmp3.zmdcdn.me/w165_r1x1_webp/cover/c/6/c/0/c6c057aa53bafcb2858e1000dd2357ea.jpg"
+          "linkImgDetail": "img/shutdowmp3.webp"
         }
       ]
     },
@@ -506,7 +506,12 @@
 		{
           "locationTagName": "tap3",
           "linkDetail": "/detail.html?id=13&type=audio",
-          "linkImgDetail": "https://photo-resize-zmp3.zmdcdn.me/w94_r1x1_webp/cover/4/6/1/3/4613581b1bf939a02c72432758052f4f.jpg"
+          "linkImgDetail": "img/talkthattalk.webp"
+        },
+		{
+          "locationTagName": "whatListen",
+          "linkDetail": "/detail.html?id=13&type=audio",
+          "linkImgDetail": "img/talkthattalk.webp"
         }
       ]
     },
@@ -539,12 +544,12 @@
 		{
           "locationTagName": "contentMV",
           "linkDetail": "/detail.html?id=14&type=video",
-          "linkImgDetail": "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2019/7/1/741911/Hay-Trao-Cho-Anh.jpg"
+          "linkImgDetail": "img/haytraochoanh.jpg"
         },
 		{
           "locationTagName": "tap4",
           "linkDetail": "/detail.html?id=14&type=video",
-          "linkImgDetail": "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2019/7/1/741911/Hay-Trao-Cho-Anh.jpg"
+          "linkImgDetail": "img/haytraochoanh.jpg"
         }
       ]
 	},
@@ -577,12 +582,12 @@
 		{
           "locationTagName": "contentMV1",
           "linkDetail": "/detail.html?id=15&type=video",
-          "linkImgDetail": "https://i.scdn.co/image/ab67616d0000b273bf0f831da8c43213afa108b2"
+          "linkImgDetail": "img/dungcungthanhsai.jfif"
         },
 		{
           "locationTagName": "tap4",
           "linkDetail": "/detail.html?id=15&type=video",
-          "linkImgDetail": "https://i.scdn.co/image/ab67616d0000b273bf0f831da8c43213afa108b2"
+          "linkImgDetail": "img/dungcungthanhsai.jfif"
         }
       ]
 	},
@@ -615,7 +620,7 @@
 		{
           "locationTagName": "contentMV2",
           "linkDetail": "/detail.html?id=16&type=video",
-          "linkImgDetail": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/e/c/c/3/ecc383533cebaa7fdaf0532d712511bf.jpg"
+          "linkImgDetail": "img/shutdownmp4.webp"
         }       
       ]
 	},
@@ -648,7 +653,7 @@
 		{
           "locationTagName": "contentMV",
           "linkDetail": "/detail.html?id=17&type=video",
-          "linkImgDetail": "https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/covers/e/a/eaded8dba1b3fe41104354faa3254545_1303976927.jpg"
+          "linkImgDetail": "img/complicate.webp"
         }       
       ]
 	},
@@ -681,12 +686,12 @@
 		{
           "locationTagName": "contentMV1",
           "linkDetail": "/detail.html?id=18&type=video",
-          "linkImgDetail": "https://i.scdn.co/image/ab67616d0000b27359bb292e068d6856e6e4a82e"
+          "linkImgDetail": "img/goodenough.jfif"
         }       
       ]
 	},
 	{
-      "id": 18,
+      "id": 19,
       "songName": "DDU-DU-DDU-DU",
 	  "linkAudio": "",
 	  "linkVideo": "video/Korea-video/DDU-DU-DDU-DU-BLACKPINK.mp4",
@@ -714,7 +719,7 @@
 		{
           "locationTagName": "contentMV2",
           "linkDetail": "/detail.html?id=19&type=video",
-          "linkImgDetail": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/5e/5d/c3/5e5dc3a6-797b-dee5-9f51-2dcbf447c48e/19UMGIM05046.rgb.jpg/500x500bb.webp"
+          "linkImgDetail": "img/dudu.jfif"
         }       
       ]
 	}  	 		

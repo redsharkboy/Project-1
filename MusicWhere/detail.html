@@ -38,34 +38,34 @@
       <div class="row">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
-              <a class="navbar-brand" href="\">MusicWheress</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                  aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">BÀI HÁT HOT</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">CHỦ ĐỀ</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">THỂ LOẠI</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">CA SỸ</a>
-                      </li>
-                  </ul>
-                  <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
-                      <button class="btn btn-outline-light" type="submit"><i class="fa fa-search"></i></button>
-                  </form>
-              </div>
+            <a class="navbar-brand" href="\">MusicWheress</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">MUSIC</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">LIBRARY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">MV</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CHART</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
           </div>
-      </nav>
+        </nav>
       </div>
 
     </div>
@@ -77,6 +77,11 @@
 
   <div class="wrap-content" style="padding-top: 50px">
     <div class="container">
+      <hr>
+                <div style="text-align: right;">
+                    <span> CounterVisitor: </span>
+                    <span id="CounterVisitor"> </span>
+                </div>
       <div class="row">
         <div class="col-lg-8 col-md-8 col-sm-12">
           <div class="mdl-detail-song">
@@ -105,25 +110,23 @@
               </div>
               <p style="padding-top: 10px;">
                 <a class="btn btn-primary" id="btnShowLyric" data-bs-toggle="collapse" href="#lyricContent"
-                  role="button" aria-expanded="false" aria-controls="collapseExample">Xem Lời Bài Hát</a>
+                  role="button" aria-expanded="false" aria-controls="collapseExample">LYRICS</a>
               </p>
             </div>
             <div class="comment">
               <form id="basic-form" action="" method="post">
                 <div class="mb-3">
-                  <label for="email" class="form-label">Bạn hãy nhập địa chỉ Email và để lại bình
-                    luận
-                    nhé</label>
+                  <label for="email" class="form-label">Please enter your email address and leave a comment!</label>
                   <input type="email" class="form-control" id="email" placeholder="binhluan@fpt.edu.com" required>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleFormControlTextarea1" class="form-label">Nội dung</label>
+                  <label for="exampleFormControlTextarea1" class="form-label">Content</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                    placeholder="Tối đa 2000 kí tự"></textarea>
+                    placeholder="Up to 2000 characters!"></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary" data-bs-toggle="modal">
-                  Gửi bình luận
+                  Post a comment!
                 </button>
               </form>
 
@@ -133,33 +136,33 @@
                 <div class="modal-dialog modal-lg modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="mocalComment">Xác Nhận Gửi Bình Luận</h5>
+                      <h5 class="modal-title" id="mocalComment">Confirm Submit Comment</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                       <p>
-                        Từ: <strong id="commentFrom"></strong>
+                        From: <strong id="commentFrom"></strong>
                       </p>
                       <p>
-                        Đến: <strong id="commentTo"></strong>
-                      </p>
-                      <br>
-                      <p>
-                        Bình luận về bài hát / video <strong id="commentSong"></strong>
-                      </p>
-                      <p>
-                        Thể hiện bởi <strong id="commentSinger"></strong>
+                        To: <strong id="commentTo"></strong>
                       </p>
                       <br>
                       <p>
-                        Nội Dung: <span id="commentDetail"></spanspan>
+                        Comment on the song / video <strong id="commentSong"></strong>
+                      </p>
+                      <p>
+                        Shown by <strong id="commentSinger"></strong>
+                      </p>
+                      <br>
+                      <p>
+                        Content: <span id="commentDetail"></spanspan>
                       </p>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thôi xin</button>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Stop</button>
                       <!-- <button type="button" class="btn btn-primary">Gửi luôn</button> -->
                       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sendModal">
-                        Gửi luôn
+                        Send it
                       </button>
                     </div>
                   </div>
@@ -169,7 +172,7 @@
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="mocalComment">THÀNH CÔNG</h5>
+                      <h5 class="modal-title" id="mocalComment">SUCCESSFUL</h5>
                     </div>
                     <div class="modal-body">
                       <div>
@@ -181,15 +184,15 @@
                           <h1>
                       </div>
 
-                      <p>Bình luận của bạn đã gửi đi thành công.</p>
-                      <p>Vui lòng chịu mọi trách nhiệm với ngôn từ của mình nhé ^^.</p>
+                      <p>Your comment has been sent successfully.</p>
+                      <p>Please take all responsibility for my words ^^.</p>
                     </div>
 
                     <div class="modal-footer">
 
                       <button type="button" style="width:100%" class="btn btn-secondary" onclick="resetComment()"
                         data-bs-dismiss="modal">OK
-                        chuyện nhỏ</button>
+                        </button>
 
                       <!-- <button type="button" class="btn btn-primary">Gửi luôn</button> -->
                     </div>
@@ -205,13 +208,13 @@
 
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contentNew1">
                 <div class="title">
-                  <span href="javascript:void(0);" class="txt"> CÙNG CA SĨ</span>
+                  <span href="javascript:void(0);" class="txt"> SAME SINGER</span>
                 </div>
                 <!-- Auto Genegate Content -->
               </div>
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contentNew2">
                 <div class="title">
-                  <span href="javascript:void(0);" class="txt"> CÙNG THỂ LOẠI</span>
+                  <span href="javascript:void(0);" class="txt">THE SAME KIND</span>
                 </div>
                 <!-- Auto Genegate Content -->
               </div>
@@ -219,7 +222,7 @@
           </div>
           <div class="mdl-1 mdl-songs">
             <div class="title">
-              <a href="/bai-hat-co-the-ban-thich" class="txt"> CÓ THỂ BẠN THÍCH</a>
+              <a href="/bai-hat-co-the-ban-thich" class="txt">NEW RELEASES</a>
               <a href="/bai-hat-co-the-ban-thich?listen=true" class="bg-color-01 listen-all listen-all2">
                 <i class="fa icon-play2"></i>
               </a>
@@ -240,7 +243,7 @@
         <div class="col-lg-4 col-md-4 col-sm-12">
           <div class="mdl-1 mdl-billboard">
             <div class="title ellipsis">
-              <a href="/bang-xep-hang" class="txt"> BÀI HÁT HOT</a>
+              <a href="/bang-xep-hang" class="txt">CHARTS</a>
             </div>
 
             <!-- <ul class="nav nav-pills" role="tablist">
@@ -251,7 +254,7 @@
             <div class="tab nav-pills">
               <button class="tablinks btn active" onclick="openAlbumHot(event, 'tap1')">Việt Nam</button>
               <button class="tablinks btn" onclick="openAlbumHot(event, 'tap2')">US/UK</button>
-              <button class="tablinks btn" onclick="openAlbumHot(event, 'tap3')">Sáng tạo</button>
+              <button class="tablinks btn" onclick="openAlbumHot(event, 'tap3')">K-POP</button>
             </div>
 
             <div id="tap1" class="tabcontent" style="display: block;">
@@ -268,13 +271,13 @@
           </div>
           <div class="mdl-1 mdl-songs" id="whatListen">
             <div class="title">
-              <span href="javascript:void(0);" class="txt"> HÔM NAY NGHE GÌ?</span>
+              <span href="javascript:void(0);" class="txt"> TOP ARTISTS</span>
             </div>
             <!-- Auto Genegate -->
           </div>
           <div class="mdl-1 mdl-billboard">
             <div class="title ellipsis">
-              <a href="/bang-xep-hang" class="txt"> TẢI NHIỀU NHẤT</a>
+              <a href="/bang-xep-hang" class="txt">TOP SEARCHED SONGS</a>
             </div>
 
             <!-- <ul class="nav nav-pills" role="tablist">
@@ -283,8 +286,8 @@
                             <li class=""><a href="#sang-tao" role="tab" data-toggle="tab">Sáng tạo</a></li>
                         </ul> -->
             <div class="tab nav-pills">
-              <button class="tablinkss btn active" onclick="openAlbumDownload(event, 'tap4')">Tuần</button>
-              <button class="tablinkss btn" onclick="openAlbumDownload(event, 'tap5')">Tháng</button>
+              <button class="tablinkss btn active" onclick="openAlbumDownload(event, 'tap4')">WEEK</button>
+              <button class="tablinkss btn" onclick="openAlbumDownload(event, 'tap5')">MONTH</button>
             </div>
 
             <div id="tap4" class="tabcontents" style="display: block;">
@@ -300,10 +303,10 @@
 
       </div>
       <hr>
-      <div>
+      <!-- <div>
         <span> Lượt truy cập: </span>
         <span id="CounterVisitor"> </span>
-      </div>
+      </div> -->
     </div>
     <div class="footer">
       <div class="container">
@@ -311,11 +314,11 @@
           <div class="col-md-12">
 
             <p class="link">
-              <a href="/">Trang chủ</a>
-              <a href="/huong-dan/gioi-thieu">Giới thiệu</a>
-              <a href="/huong-dan/dieu-khoan-su-dung">Điều khoản sử dụng</a>
-              <a href="javascript:void(0);" class="user">Góp ý/Báo lỗi</a>
-              <a href="/huong-dan/cau-hoi-thuong-gap">Câu hỏi thường gặp</a>
+              <a href="/">Home</a>
+              <a href="/huong-dan/gioi-thieu">About us</a>
+              <a href="/huong-dan/dieu-khoan-su-dung">Terms of use</a>
+              <a href="javascript:void(0);" class="user">Feedback</a>
+              <a href="/huong-dan/cau-hoi-thuong-gap">Contact us </a>
             </p>
             <p class="text-copyright">
               <span class="text-copyright">Copyright © MusicWhere.</span>
