@@ -722,6 +722,105 @@
           "linkImgDetail": "img/dudu.jfif"
         }       
       ]
-	}  	 		
+	},
+	{
+      "id": 20,
+      "songName": "Album Hot VietNam",
+	  "linkAudio": "",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew1",
+          "linkDetail": "/detail.html?id=20&type=video",
+          "linkImgDetail": "img/hotviet.webp"
+        }       
+      ]
+	},
+	{
+      "id": 21,
+      "songName": "Album Hot US/UK",
+	  "linkAudio": "",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew2",
+          "linkDetail": "/detail.html?id=21&type=video",
+          "linkImgDetail": "img/usuk.jfif"
+        }       
+      ]
+	},
+	{
+      "id": 22,
+      "songName": "Album Hot Korea",
+	  "linkAudio": "",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew3",
+          "linkDetail": "/detail.html?id=21&type=video",
+          "linkImgDetail": "img/kpop.jpg"
+        }       
+      ]
+	}  	 					
   ]
 }

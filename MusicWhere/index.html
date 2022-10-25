@@ -39,7 +39,7 @@
 
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="container-fluid logo">
-                        <a class="navbar-brand" href="\"><img style="max-width: 35px;opacity: inherit" src="img/icon.png">MusicWheress </a>
+                        <a class="navbar-brand" href="\"><img style="max-width: 40px;opacity: inherit" src="img/icontest.jpg">MusicWheress </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -161,10 +161,13 @@
                             <span href="javascript:void(0);" class="txt">PLAYLIST/ALBUM</span>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contentNew1">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="contentNew1">
                                 <!-- Auto Genegate Content -->
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="contentNew2">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="contentNew2">
+                                <!-- Auto Genegate Content -->
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="contentNew3">
                                 <!-- Auto Genegate Content -->
                             </div>
                         </div>
@@ -256,6 +259,18 @@
                             <span class="text-copyright">Copyright © MusicWhere.</span>
                             <span>Số 8, Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, HN</span>
                         </p>
+                        <p><span class="con-title">Email us</span>
+                            <span><a href="#">musicwhere@gmail.com</a><a href="#">fpt-aptech@gmail.com</a></span>
+                        </p>
+                        <div class="third">
+                            <h3 class="ms-color">Download Our App</h3>
+                            <p>Go Mobile with our app.
+                                Listen to your favourite song at just one click. Download Now !
+                            </p>
+                            <a href="#"><img src="img/google_play.jpg" alt=""></a>
+                            <a href="#"><img src="img/app_store.jpg" alt=""></a>
+                            <a href="#"><img src="img/windows.jpg" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -372,12 +387,18 @@
             switch (element.locationTagName) {
                 case "contentLike1":
                 case "contentLike2":
-                case "contentNew1":
-                case "contentNew2":
+                // case "contentNew1":
+                // case "contentNew2":
+                // case "contentNew3":
                 case "whatListen":
                 case "tap4":
                 case "tap5":
                     fieldHTML = '<div class="media"><div class="media-left"><a href="' + element.linkDetail + '"><img class="media-object" src="' + element.linkImgDetail + '" onerror="this.src=\'img/4x4.png\';" width="48" alt="..."></a></div><div class="media-body" style="width: 285px;"><a href="' + element.linkDetail + '" class="song-name ellipsis" title="' + item.songName + '" style="max-width: 244px;"> ' + item.songName + ' </a><p class="singer-name ellipsis" title="' + item.singer[0].el1 + ',' + item.singer[0].el2 + '" style="max-width: 244px;">' + item.singer[0].el1 + ',' + item.singer[0].el2 + '</p></div></div>';
+                    break;
+                case "contentNew1":
+                case "contentNew2":
+                case "contentNew3":
+                    fieldHTML = '<div class="media"><div class="media-left"><a href="' + element.linkDetail + '"><img class="media-object" src="' + element.linkImgDetail + '" onerror="this.src=\'img/4x4.png\';" width="150"; height="100" alt="..."></a></div><div class="media-body" style="width: 285px;"><a href="' + element.linkDetail + '" class="song-name ellipsis" title="' + item.songName + '" style="max-width: 244px;"> ' + item.songName + ' </a><p class="singer-name ellipsis" title="' + item.singer[0].el1 + ',' + item.singer[0].el2 + '" style="max-width: 244px;">' + item.singer[0].el1 + ',' + item.singer[0].el2 + '</p></div></div>';
                     break;
                 case "contentHot":
                 case "contentMV":
