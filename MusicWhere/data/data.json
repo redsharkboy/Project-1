@@ -550,6 +550,11 @@
           "locationTagName": "tap4",
           "linkDetail": "/detail.html?id=14&type=video",
           "linkImgDetail": "img/haytraochoanh.jpg"
+        },
+		{
+          "locationTagName": "contentMV4",
+          "linkDetail": "/detail.html?id=14&type=video",
+          "linkImgDetail": "img/haytraochoanh.jpg"
         }
       ]
 	},
@@ -588,6 +593,11 @@
           "locationTagName": "tap4",
           "linkDetail": "/detail.html?id=15&type=video",
           "linkImgDetail": "img/dungcungthanhsai.jfif"
+        },
+		{
+          "locationTagName": "contentMV4",
+          "linkDetail": "/detail.html?id=15&type=video",
+          "linkImgDetail": "img/dungcungthanhsai.jfif"
         }
       ]
 	},
@@ -621,7 +631,12 @@
           "locationTagName": "contentMV2",
           "linkDetail": "/detail.html?id=16&type=video",
           "linkImgDetail": "img/shutdownmp4.webp"
-        }       
+        },
+		{
+          "locationTagName": "contentMV3",
+          "linkDetail": "/detail.html?id=16&type=video",
+          "linkImgDetail": "img/shutdownmp4.webp"
+        }     
       ]
 	},
 	{
@@ -654,7 +669,12 @@
           "locationTagName": "contentMV",
           "linkDetail": "/detail.html?id=17&type=video",
           "linkImgDetail": "img/complicate.webp"
-        }       
+        },
+		{
+          "locationTagName": "contentMV3",
+          "linkDetail": "/detail.html?id=17&type=video",
+          "linkImgDetail": "img/complicate.webp"
+        }      
       ]
 	},
 	{
@@ -687,7 +707,12 @@
           "locationTagName": "contentMV1",
           "linkDetail": "/detail.html?id=18&type=video",
           "linkImgDetail": "img/goodenough.jfif"
-        }       
+        },
+		{
+          "locationTagName": "contentMV3",
+          "linkDetail": "/detail.html?id=18&type=video",
+          "linkImgDetail": "img/goodenough.jfif"
+        }       		
       ]
 	},
 	{
@@ -720,7 +745,12 @@
           "locationTagName": "contentMV2",
           "linkDetail": "/detail.html?id=19&type=video",
           "linkImgDetail": "img/dudu.jfif"
-        }       
+        },
+		{
+          "locationTagName": "contentMV4",
+          "linkDetail": "/detail.html?id=19&type=video",
+          "linkImgDetail": "img/dudu.jfif"
+        }
       ]
 	},
 	{
