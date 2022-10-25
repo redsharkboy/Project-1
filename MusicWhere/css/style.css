@@ -33,6 +33,10 @@ u {
     margin: auto;
 }
 
+.navbar-brand{
+    background: url("(../img/icon.jpg)");
+}
+
 .ms_top_trend {
     float: right;
     font-size: 16px;
@@ -309,7 +313,8 @@ a.song-name {
 
 .image-topic {
     width: 100%;
-    /* min-width: 310px; */
+    /* height: 100px; */
+
 }
 
 .footer {
