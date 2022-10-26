@@ -11,7 +11,7 @@
           "el2": ""
         }
       ],
-      "composer": "",
+      "composer": "Hứa Kim Tuyền",
       "album": [
         {
           "el1": "Nhạc Hot",
@@ -36,8 +36,13 @@
           "linkDetail": "/detail.html?id=1&type=audio",
           "linkImgDetail": "img/hanhi.webp"
         },
-		    {
+		{
           "locationTagName": "tap4",
+          "linkDetail": "/detail.html?id=1&type=audio",
+          "linkImgDetail": "img/hanhi.webp"
+        },
+		{
+          "locationTagName": "whatListen1",
           "linkDetail": "/detail.html?id=1&type=audio",
           "linkImgDetail": "img/hanhi.webp"
         }
@@ -78,6 +83,11 @@
           "locationTagName": "contentLike1",
           "linkDetail": "/detail.html?id=2&type=audio",
           "linkImgDetail": "img/quanap.webp"
+        },
+		{
+          "locationTagName": "whatListen1",
+          "linkDetail": "/detail.html?id=2&type=audio",
+          "linkImgDetail": "img/quanap.webp"
         }
       ]
     },
@@ -113,8 +123,13 @@
           "linkDetail": "/detail.html?id=3&type=audio",
           "linkImgDetail": "img/karik.jpeg"
         },
-		 {
+		{
           "locationTagName": "tap4",
+          "linkDetail": "/detail.html?id=3&type=audio",
+          "linkImgDetail": "img/karik.jpeg"
+        },
+		{
+          "locationTagName": "whatListen1",
           "linkDetail": "/detail.html?id=3&type=audio",
           "linkImgDetail": "img/karik.jpeg"
         }
@@ -155,6 +170,11 @@
           "locationTagName": "tap5",
           "linkDetail": "/detail.html?id=4&type=audio",
           "linkImgDetail": "img/ducphuc.webp"
+        },
+		{
+          "locationTagName": "whatListen1",
+          "linkDetail": "/detail.html?id=4&type=audio",
+          "linkImgDetail": "img/ducphuc.webp"
         }
       ]
     },
@@ -191,6 +211,11 @@
         },
 		{
           "locationTagName": "tap5",
+          "linkDetail": "/detail.html?id=5&type=audio",
+          "linkImgDetail": "img/mck.webp"
+        },
+		{
+          "locationTagName": "whatListen1",
           "linkDetail": "/detail.html?id=5&type=audio",
           "linkImgDetail": "img/mck.webp"
         }
@@ -236,6 +261,11 @@
           "locationTagName": "whatListen",
           "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
           "linkImgDetail": "img/bebe_rexha.jpg"
+        },
+		{
+          "locationTagName": "whatListen2",
+          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkImgDetail": "img/bebe_rexha.jpg"
         }
       ]
     },
@@ -272,6 +302,11 @@
         },
 		{
           "locationTagName": "tap5",
+          "linkDetail": "/detail.html?id=7&type=audio",
+          "linkImgDetail": "img/Joji_-_Glimpse_of_Us.png"
+        },
+		{
+          "locationTagName": "whatListen2",
           "linkDetail": "/detail.html?id=7&type=audio",
           "linkImgDetail": "img/Joji_-_Glimpse_of_Us.png"
         }
@@ -312,6 +347,11 @@
           "locationTagName": "tap5",
           "linkDetail": "/detail.html?id=8&type=audio",
           "linkImgDetail": "img/leftandright.webp"
+        },
+		{
+          "locationTagName": "whatListen2",
+          "linkDetail": "/detail.html?id=8&type=audio",
+          "linkImgDetail": "img/leftandright.webp"
         }
       ]
     },
@@ -350,6 +390,11 @@
           "locationTagName": "contentLike2",
           "linkDetail": "/detail.html?id=9&type=audio",
           "linkImgDetail": "img/smellslikeme.png"
+        },
+		{
+          "locationTagName": "whatListen2",
+          "linkDetail": "/detail.html?id=9&type=audio",
+          "linkImgDetail": "img/smellslikeme.png"
         }
       ]
     },
@@ -386,6 +431,11 @@
         },
 		{
           "locationTagName": "tap5",
+          "linkDetail": "/detail.html?id=10&type=audio",
+          "linkImgDetail": "img/afterlike.webp"
+        },
+		{
+          "locationTagName": "whatListen3",
           "linkDetail": "/detail.html?id=10&type=audio",
           "linkImgDetail": "img/afterlike.webp"
         }
@@ -431,6 +481,11 @@
           "locationTagName": "tap5",
           "linkDetail": "/detail.html?id=11&type=audio",
           "linkImgDetail": "img/Collyourrainbow.jpg"
+        },
+		{
+          "locationTagName": "whatListen3",
+          "linkDetail": "/detail.html?id=11&type=audio",
+          "linkImgDetail": "img/Collyourrainbow.jpg"
         }
       ]
     },
@@ -474,6 +529,11 @@
           "locationTagName": "tap4",
           "linkDetail": "/detail.html?id=12&type=audio",
           "linkImgDetail": "img/shutdowmp3.webp"
+        },
+		{
+          "locationTagName": "whatListen3",
+          "linkDetail": "/detail.html?id=12&type=audio",
+          "linkImgDetail": "img/shutdowmp3.webp"
         }
       ]
     },
@@ -510,6 +570,11 @@
         },
 		{
           "locationTagName": "whatListen",
+          "linkDetail": "/detail.html?id=13&type=audio",
+          "linkImgDetail": "img/talkthattalk.webp"
+        },
+		{
+          "locationTagName": "whatListen3",
           "linkDetail": "/detail.html?id=13&type=audio",
           "linkImgDetail": "img/talkthattalk.webp"
         }
@@ -712,7 +777,12 @@
           "locationTagName": "contentMV3",
           "linkDetail": "/detail.html?id=18&type=video",
           "linkImgDetail": "img/goodenough.jfif"
-        }       		
+        },
+		{
+          "locationTagName": "tap4",
+          "linkDetail": "/detail.html?id=18&type=video",
+          "linkImgDetail": "img/goodenough.jfif"
+        }       
       ]
 	},
 	{
@@ -748,6 +818,11 @@
         },
 		{
           "locationTagName": "contentMV4",
+          "linkDetail": "/detail.html?id=19&type=video",
+          "linkImgDetail": "img/dudu.jfif"
+        },
+		{
+          "locationTagName": "tap4",
           "linkDetail": "/detail.html?id=19&type=video",
           "linkImgDetail": "img/dudu.jfif"
         }

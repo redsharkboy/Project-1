@@ -195,6 +195,13 @@ hr {
     font-weight: bold;
 }
 
+.pull-right {
+    margin-top: 30px;
+    font-size: 15px;
+    color: #1ab394;
+
+}
+
 .txt {
     color: #000;
 }
@@ -552,3 +559,10 @@ a.song-name {
 /* .mdl-1 mdl-songs{
     img
 } */
+#area-chart,
+#line-chart,
+#bar-chart,
+#stacked,
+#pie-chart{
+  min-height: 250px;
+}
