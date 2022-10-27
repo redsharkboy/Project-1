@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>MusicWhere</title>
+  <title>CHARTS</title>
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
   <meta name="viewport"
     content="width=device-width, maximum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
@@ -11,6 +11,7 @@
     href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link href="css/style.css" rel="stylesheet">
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -23,10 +24,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdn.logwork.com/widget/digital.js"></script>
   <script src="https://cdn.logwork.com/widget/text.js"></script>
-      <!-- line chart -->
-      <script src="@@path/vendor/chartist/dist/chartist.min.js"></script>
-      <script src="@@path/vendor/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- line chart -->
+  <script src="@@path/vendor/chartist/dist/chartist.min.js"></script>
+  <script src="@@path/vendor/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 
 </head>
@@ -36,7 +37,7 @@
     <a href="https://logwork.com/current-time-in-hanoi-vietnam-ha-noi" id="nameTime" class="digital-clock"
       data-style="flip" data-size="250" data-timezone="Asia/Phnom_Penh" data-language="vi">Current time in Hanoi,
       Vietnam</a>
-      <button type="button" class="btn btn-danger" onclick="topFunction()">Top</button>
+    <button type="button" class="btn btn-danger" onclick="topFunction()">Top</button>
     <!-- <a href="https://logwork.com/current-time-in-hanoi-vietnam-ha-noi" class="clock-widget-text" data-width="240" data-timezone="Asia/Phnom_Penh" data-language="vi">Hanoi, Vietnam</a> -->
   </div>
   <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
@@ -56,17 +57,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="/hotmusic.html">HOT MUSIC</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/GENRES.html">GENRES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">MV</a>
+                  <a class="nav-link" href="/hotmusic.html">TRENDING NOW</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/chart.html">CHART</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/genres.html">GENRES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ALBUM</a>
+                </li>
+                
               </ul>
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
@@ -88,7 +90,7 @@
     <div class="container">
       <hr>
       <div style="text-align: right;">
-        <span> CounterVisitor: </span>
+        <span> <i class="fa-solid fa-person"></i> </span>
         <span id="CounterVisitor"> </span>
       </div>
       <div class="row">
@@ -135,106 +137,112 @@
 
           </div>
         </div>
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="mdl-1 mdl-billboard">
-          <div class="title ellipsis">
-            <a href="/bang-xep-hang" class="txt">CHARTS</a>
-          </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="mdl-1 mdl-billboard">
+            <div class="title ellipsis">
+              <a href="/bang-xep-hang" class="txt">CHARTS</a>
+            </div>
 
-          <!-- <ul class="nav nav-pills" role="tablist">
+            <!-- <ul class="nav nav-pills" role="tablist">
                             <li class="active"><a href="#viet-nam" role="tab" data-toggle="tab">Việt Nam</a></li>
                             <li class=""><a href="#us-uk" role="tab" data-toggle="tab">US/UK</a></li>
                             <li class=""><a href="#sang-tao" role="tab" data-toggle="tab">Sáng tạo</a></li>
                         </ul> -->
-          <div class="tab nav-pills">
-            <button class="tablinks btn active" onclick="openAlbumHot(event, 'tap1')">Việt Nam</button>
-            <button class="tablinks btn" onclick="openAlbumHot(event, 'tap2')">US/UK</button>
-            <button class="tablinks btn" onclick="openAlbumHot(event, 'tap3')">K-POP</button>
-          </div>
+            <div class="tab nav-pills">
+              <button class="tablinks btn active" onclick="openAlbumHot(event, 'tap1')">Việt Nam</button>
+              <button class="tablinks btn" onclick="openAlbumHot(event, 'tap2')">US/UK</button>
+              <button class="tablinks btn" onclick="openAlbumHot(event, 'tap3')">K-POP</button>
+            </div>
 
-          <div id="tap1" class="tabcontent" style="display: block;">
+            <div id="tap1" class="tabcontent" style="display: block;">
+              <!-- Auto Genegate -->
+            </div>
+
+            <div id="tap2" class="tabcontent">
+              <!-- Auto Genegate -->
+            </div>
+
+            <div id="tap3" class="tabcontent">
+              <!-- Auto Genegate -->
+            </div>
+          </div>
+          <div class="mdl-1 mdl-songs" id="whatListen">
+            <div class="title">
+              <span href="javascript:void(0);" class="txt"> TOP ARTISTS</span>
+            </div>
             <!-- Auto Genegate -->
           </div>
+          <div class="mdl-1 mdl-billboard">
+            <div class="title ellipsis">
+              <a href="/bang-xep-hang" class="txt">TOP SEARCHED SONGS</a>
+            </div>
 
-          <div id="tap2" class="tabcontent">
-            <!-- Auto Genegate -->
-          </div>
-
-          <div id="tap3" class="tabcontent">
-            <!-- Auto Genegate -->
-          </div>
-        </div>
-        <div class="mdl-1 mdl-songs" id="whatListen">
-          <div class="title">
-            <span href="javascript:void(0);" class="txt"> TOP ARTISTS</span>
-          </div>
-          <!-- Auto Genegate -->
-        </div>
-        <div class="mdl-1 mdl-billboard">
-          <div class="title ellipsis">
-            <a href="/bang-xep-hang" class="txt">TOP SEARCHED SONGS</a>
-          </div>
-
-          <!-- <ul class="nav nav-pills" role="tablist">
+            <!-- <ul class="nav nav-pills" role="tablist">
                             <li class="active"><a href="#viet-nam" role="tab" data-toggle="tab">Việt Nam</a></li>
                             <li class=""><a href="#us-uk" role="tab" data-toggle="tab">US/UK</a></li>
                             <li class=""><a href="#sang-tao" role="tab" data-toggle="tab">Sáng tạo</a></li>
                         </ul> -->
-          <div class="tab nav-pills">
-            <button class="tablinkss btn active" onclick="openAlbumDownload(event, 'tap4')">WEEK</button>
-            <button class="tablinkss btn" onclick="openAlbumDownload(event, 'tap5')">MONTH</button>
-          </div>
+            <div class="tab nav-pills">
+              <button class="tablinkss btn active" onclick="openAlbumDownload(event, 'tap4')">WEEK</button>
+              <button class="tablinkss btn" onclick="openAlbumDownload(event, 'tap5')">MONTH</button>
+            </div>
 
-          <div id="tap4" class="tabcontents" style="display: block;">
-            <!-- Auto Genegate -->
-          </div>
+            <div id="tap4" class="tabcontents" style="display: block;">
+              <!-- Auto Genegate -->
+            </div>
 
-          <div id="tap5" class="tabcontents">
-            <!-- Auto Genegate -->
-          </div>
+            <div id="tap5" class="tabcontents">
+              <!-- Auto Genegate -->
+            </div>
 
+          </div>
         </div>
+
       </div>
-
-    </div>
-    <hr>
-    <!-- <div>
+      <hr>
+      <!-- <div>
         <span> Lượt truy cập: </span>
         <span id="CounterVisitor"> </span>
       </div> -->
-  </div>
-  <div class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
 
-          <p class="link">
-            <a href="/">Home</a>
-            <a href="/huong-dan/gioi-thieu">About us</a>
-            <a href="/huong-dan/dieu-khoan-su-dung">Terms of use</a>
-            <a href="javascript:void(0);" class="user">Feedback</a>
-            <a href="/huong-dan/cau-hoi-thuong-gap">Contact us </a>
-          </p>
-          <p class="text-copyright">
-            <span class="text-copyright">Copyright © MusicWhere.</span>
-            <span>Số 8, Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, HN</span>
-          </p>
-          <p><span class="con-title">Email us</span>
-            <span><a href="#">musicwhere@gmail.com</a><a href="#">fpt-aptech@gmail.com</a></span>
-          </p>
-          <div class="third">
-            <h3 class="ms-color">Download Our App</h3>
-            <p>Go Mobile with our app.
-              Listen to your favourite song at just one click. Download Now !
+            <p class="link">
+              <a href="/">Home</a>
+              <a href="/huong-dan/gioi-thieu">About us</a>
+              <a href="/huong-dan/dieu-khoan-su-dung">Terms of use</a>
+              <a href="javascript:void(0);" class="user">Feedback</a>
+              <a href="/huong-dan/cau-hoi-thuong-gap">Contact us </a>
             </p>
-            <a href="#"><img src="img/google_play.jpg" alt=""></a>
-            <a href="#"><img src="img/app_store.jpg" alt=""></a>
-            <a href="#"><img src="img/windows.jpg" alt=""></a>
+            <p class="text-copyright">
+              <span class="text-copyright">Copyright © MusicWhere.</span>
+              <span>Số 8, Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, HN</span>
+            </p>
+            <p><span class="con-title">Email us</span>
+              <span><a href="#">musicwhere@gmail.com</a><a href="#">fpt-aptech@gmail.com</a></span>
+              <span>Mobile: 0987654321</span>
+            </p>
+            <p>
+              <span><i class="fa-brands fa-facebook"></i> <a href="#">Facebook</a></span>
+              <span><i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a></span>
+              <span><i class="fa-brands fa-github"></i> <a href="#">Github</a></span>
+            </p>
+            <div class="third">
+              <h3 class="ms-color">Download Our App</h3>
+              <p>Go Mobile with our app.
+                Listen to your favourite song at just one click. Download Now !
+              </p>
+              <a href="#"><img src="img/google_play.jpg" alt=""></a>
+              <a href="#"><img src="img/app_store.jpg" alt=""></a>
+              <a href="#"><img src="img/windows.jpg" alt=""></a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
 </body>
 
@@ -481,41 +489,47 @@
 
 
   const labels = [
-        '00:00',
-        '02:00',
-        '04:00',
-        '06:00',
-        '08:00',
-        '10:00',
-        '12:00',
-        '14:00',
-        '16:00',
-        '18:00',
-        '20:00',
-        '22:00',
-    ];
+    '00:00',
+    '02:00',
+    '04:00',
+    '06:00',
+    '08:00',
+    '10:00',
+    '12:00',
+    '14:00',
+    '16:00',
+    '18:00',
+    '20:00',
+    '22:00',
+  ];
 
-    const data = {
-        labels: labels,
-        datasets: [{
-            label: 'Music Chart',
-            backgroundColor: 'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
-            data: [0, 10, 5, 2, 20, 30, 45,14,25,10,11,14],
-        },
-        {
-            label: 'Gà VL',
-            backgroundColor: 'rgb(51, 190, 255)',
-            borderColor: 'rgb(51, 190, 255)',
-            data: [10, 20, 25, 10, 25, 35, 40,21,25,40,31,52],
-        }]
-    };
+  const data = {
+    labels: labels,
+    datasets: [{
+      label: 'Chưa Quên Người Yêu Cũ',
+      backgroundColor: 'rgb(255, 255, 255)',
+      borderColor: 'rgb(255, 99, 132)',
+      data: [30, 30, 40, 27, 30, 34, 40, 30, 28, 42, 38, 32],
+    },
+    {
+      label: 'Có Chơi Có Chịu',
+      backgroundColor: 'rgb(255, 255, 255)',
+      borderColor: 'rgb(122, 252, 0)',
+      data: [20, 25, 18, 17, 20, 12, 20, 25, 15, 26, 18, 27],
+    },
+    {
+      label: 'Có Chơi Có Chịu',
+      backgroundColor: 'rgb(255, 255, 255)',
+      borderColor: 'rgb(51, 190, 255)',
+      data: [10, 20, 12, 10, 15, 06, 10, 15, 5, 16, 12, 22],
+    }]
+  };
 
-    const config = {
-        type: 'line',
-        data: data,
-        options: {}
-    };
+  const config = {
+    type: 'line',
+    data: data,
+    options: {}
+  };
 
   const myChart = new Chart(
     document.getElementById('myChart'),
@@ -523,7 +537,7 @@
   );
 
 
-  
+
 </script>
 
 
