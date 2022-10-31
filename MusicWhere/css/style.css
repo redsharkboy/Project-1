@@ -297,6 +297,10 @@ a.song-name {
     padding-left: 70px;
     display: none;
 }
+.mdl-songs-artis img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
 
 .mdl-billboard .media {
     position: relative;
@@ -566,3 +570,26 @@ a.song-name {
 #pie-chart{
   min-height: 250px;
 }
+.topartists{
+    font-size: 20px;
+}
+.topartists #media{
+    color: black;
+}
+.topartists-a ul{
+    list-style: none;
+    text-align: center;
+}
+.topartists-a ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+.topartists-a ul li a {
+    color:rgb(37, 4, 250);
+    font-size: 20px;
+    text-decoration: none;
+}
+.options{
+float: right;
+}   

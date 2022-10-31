@@ -259,12 +259,12 @@
         },
 		{
           "locationTagName": "whatListen",
-          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkDetail": "/detail.html?id=6&type=audio",
           "linkImgDetail": "img/bebe_rexha.jpg"
         },
 		{
           "locationTagName": "whatListen2",
-          "linkDetail": "/bai-hat/wgzfdvcb-nguoi-thuong",
+          "linkDetail": "/detail.html?id=6&type=audio",
           "linkImgDetail": "img/bebe_rexha.jpg"
         }
       ]
@@ -272,7 +272,7 @@
 	{
       "id": 7,
       "songName": "Glimpse Of Us",
-	  "linkAudio": "audio/US-UK-mp3/Glimpse_Of_Us",
+	  "linkAudio": "audio/US-UK-mp3/Glimpse_Of_Us.mp3",
 	  "linkVideo": "",
       "singer": [
         {
@@ -830,8 +830,8 @@
 	},
 	{
       "id": 20,
-      "songName": "Album Hot VietNam",
-	  "linkAudio": "",
+      "songName": "Album VietNam",
+	  "linkAudio": "audio/VietNam-mp3/Chưa_Quên_Người_Yêu_Cũ-Hà Nhi-Nhac.vn.mp3",
 	  "linkVideo": "",
       "singer": [
         {
@@ -856,15 +856,15 @@
       "locationTag": [
 		{
           "locationTagName": "contentNew1",
-          "linkDetail": "/detail.html?id=20&type=video",
-          "linkImgDetail": "img/hotviet.webp"
-        }       
+          "linkDetail": "/detail.html?id=20&type=audio",
+          "linkImgDetail": "img/al0.jfif"
+        }		
       ]
 	},
 	{
       "id": 21,
-      "songName": "Album Hot US/UK",
-	  "linkAudio": "",
+      "songName": "Album US/UK",
+	  "linkAudio": "audio/US-UK-mp3/Break_My_Heart_Myself.mp3",
 	  "linkVideo": "",
       "singer": [
         {
@@ -889,15 +889,15 @@
       "locationTag": [
 		{
           "locationTagName": "contentNew2",
-          "linkDetail": "/detail.html?id=21&type=video",
+          "linkDetail": "/detail.html?id=21&type=audio",
           "linkImgDetail": "img/usuk.jfif"
-        }       
+        }			
       ]
 	},
 	{
       "id": 22,
-      "songName": "Album Hot Korea",
-	  "linkAudio": "",
+      "songName": "Album Korea",
+	  "linkAudio": "audio/Korea-mp3/After_LIKE.mp3",
 	  "linkVideo": "",
       "singer": [
         {
@@ -922,10 +922,1005 @@
       "locationTag": [
 		{
           "locationTagName": "contentNew3",
-          "linkDetail": "/detail.html?id=21&type=video",
+          "linkDetail": "/detail.html?id=22&type=audio",
           "linkImgDetail": "img/kpop.jpg"
-        }       
+        }
       ]
-	}  	 					
+	},
+	{
+      "id": 23,
+      "songName": "Album Tháng 11",
+      "linkDetail": "/detail.html?id=1&type=audio",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew1",
+          "linkDetail": "/detail.html?id=20&type=audio",
+          "linkImgDetail": "img/al1.png"
+        },
+		{
+          "locationTagName": "contentArtists1",
+          "linkDetail": "/detail.html?id=20&type=audio",
+          "linkImgDetail": "img/at.jpg"
+        }
+      ]
+	},
+	{
+      "id": 24,
+      "songName": "Album Nhạc Vàng",
+	  "linkAudio": "audio/VietNam-mp3/KARIK_ONLY_C-CÓ_CHƠI_CÓ_CHỊU.mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		     	{
+          "locationTagName": "contentNew4",
+          "linkDetail": "/detail.html?id=24&type=audio",
+          "linkImgDetail": "img/al2.jpg"
+        }
+      ]
+	},
+	{
+      "id": 25,
+      "songName": "Album EDM",
+	  "linkAudio": "audio/VietNam-mp3/QUÁ_KHỨ_ĐÔI_HIỆN_TẠI_ĐƠN-ĐỨC PHÚC.mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew4",
+          "linkDetail": "/detail.html?id=25&type=audio",
+          "linkImgDetail": "img/al3.jpg"
+        }
+      ]
+	},
+	{
+      "id": 26,
+      "songName": "Album Hallowwen VN",
+	  "linkAudio": "audio/VietNam-mp3/RPT_MCK-TẠI_VÌ_SAO.mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew4",
+          "linkDetail": "/detail.html?id=26&type=audio",
+          "linkImgDetail": "img/al4.jpg"
+        }
+      ]
+	},
+	{
+      "id": 27,
+      "songName": "Album Bài Hát Yêu Thích",
+	  "linkAudio": "audio/VietNam-mp3/QUÁ_KHỨ_ĐÔI_HIỆN_TẠI_ĐƠN-ĐỨC PHÚC.mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew4",
+          "linkDetail": "/detail.html?id=27&type=audio",
+          "linkImgDetail": "img/al5.jpg"
+        }
+      ]
+	},
+	{
+      "id": 28,
+      "songName": "Album Nhạc Pop",
+	  "linkAudio": "",
+	  "linkVideo": "video/VietNam-Video/MỸ_TÂM-ĐÚNG_CŨNG_THÀNH_SAI-OFFICIAL_MUSIC_VIDEO.webm",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew4",
+          "linkDetail": "/detail.html?id=28&type=video",
+          "linkImgDetail": "img/al6.jpg"
+        }    
+      ]
+	},
+	{
+      "id": 29,
+      "songName": "Album Dance",
+	  "linkAudio": "",
+	  "linkVideo": "video/VietNam-Video/SƠN_TÙNG_MTP-HÃY_TRAO_CHO_ANH_ft.Snoop_Dogg-Official_MV.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+			{
+          "locationTagName": "contentNew2",
+          "linkDetail": "/detail.html?id=29&type=audio",
+          "linkImgDetail": "img/usal2.jpg"
+        }
+      ]
+	},
+	{
+      "id": 30,
+      "songName": "Album music medley",
+	  "linkAudio": "audio/US-UK-mp3/Glimpse_Of_Us",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew5",
+          "linkDetail": "/detail.html?id=30&type=audio",
+          "linkImgDetail": "img/usal1.jpg"
+        }
+      ]
+	},
+	{
+      "id": 31,
+      "songName": "Album Hallowwen Classic",
+	  "linkAudio": "audio/US-UK-mp3/Left_And_Right.mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew5",
+          "linkDetail": "/detail.html?id=31&type=audio",
+          "linkImgDetail": "img/usal3.jpg"
+        }
+      ]
+	},
+	{
+      "id": 32,
+      "songName": "Album Charlie Puth",
+	  "linkAudio": "audio/US-UK-mp3/Smells_Like_Me.mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew5",
+          "linkDetail": "/detail.html?id=32&type=audio",
+          "linkImgDetail": "img/usal4.png"
+        }
+      ]
+	},
+	{
+      "id": 33,
+      "songName": "Album Top Hit",
+	  "linkAudio": "",
+	  "linkVideo": "video/US-Uk-Video/Complicated_(The_First_Take).mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew5",
+          "linkDetail": "/detail.html?id=33&type=video",
+          "linkImgDetail": "img/usal6.jpg"
+        }
+      ]
+	},
+	{
+      "id": 34,
+      "songName": "Album Chrismarts",
+	  "linkAudio": "",
+	  "linkVideo": "video/US-Uk-Video/Good_Enough.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew5",
+          "linkDetail": "/detail.html?id=34&type=video",
+          "linkImgDetail": "img/usal5.png"
+        }     	
+      ]
+	},
+	{
+      "id": 35,
+      "songName": "Album Coup Detat",
+	  "linkAudio": "audio/Korea-mp3/After_LIKE.mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew6",
+          "linkDetail": "/detail.html?id=35&type=audio",
+          "linkImgDetail": "img/kr6.jpg"
+        }     	
+      ]
+	},
+	{
+      "id": 36,
+      "songName": "Album Hot Kpop",
+	  "linkAudio": "audio/Korea-mp3/COOL_(Your rainbow).mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew6",
+          "linkDetail": "/detail.html?id=36&type=audio",
+          "linkImgDetail": "img/kr2.jpg"
+        }     	
+      ]
+	},
+	{
+      "id": 37,
+      "songName": "Album film music",
+	  "linkAudio": "audio/Korea-mp3/Shut_Down.mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew6",
+          "linkDetail": "/detail.html?id=37&type=audio",
+          "linkImgDetail": "img/kr3.jpg"
+        }     	
+      ]
+	},
+	{
+      "id": 38,
+      "songName": "Album Classic",
+	  "linkAudio": "audio/Korea-mp3/Talk_That_Talk.mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew6",
+          "linkDetail": "/detail.html?id=38&type=audio",
+          "linkImgDetail": "img/kr4.jpg"
+        }     	
+      ]
+	},
+	{
+      "id": 39,
+      "songName": "Album Teen Trouble",
+	  "linkAudio": "",
+	  "linkVideo": "video/Korea-video/DDU-DU-DDU-DU-BLACKPINK.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew6",
+          "linkDetail": "/detail.html?id=39&type=video",
+          "linkImgDetail": "img/kr5.jpg"
+        }     	
+      ]
+	},
+	{
+      "id": 40,
+      "songName": "Album Error",
+	  "linkAudio": "",
+	  "linkVideo": "video/Korea-video/Shut_Down.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "contentNew3",
+          "linkDetail": "/detail.html?id=40&type=video",
+          "linkImgDetail": "img/kr1.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 41,
+      "songName": "",
+	  "linkAudio": "",
+	  "linkVideo": "video/VietNam-Video/MỸ_TÂM-ĐÚNG_CŨNG_THÀNH_SAI-OFFICIAL_MUSIC_VIDEO.webm",
+      "singer": [
+        {
+          "el1": "",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists",
+          "linkDetail": "/detail.html?id=41&type=video",
+          "linkImgDetail": "img/mytam.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 42,
+      "songName": "",
+	  "linkAudio": "audio/VietNam-mp3/Chưa_Quên_Người_Yêu_Cũ-Hà Nhi-Nhac.vn.mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists1",
+          "linkDetail": "/detail.html?id=42&type=audio",
+          "linkImgDetail": "img/huongtram.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 43,
+      "songName": "",
+	  "linkAudio": "audio/VietNam-mp3/Đáp_Án_Cuối_Cùng-QUÂN_A.Px_NGUYỄN_PHÚC_THIỆN.mp3",
+	  "linkVideo": "",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists2",
+          "linkDetail": "/detail.html?id=43&type=audio",
+          "linkImgDetail": "img/sobin.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 44,
+      "songName": "",
+	  "linkAudio": "",
+	  "linkVideo": "video/Korea-video/Shut_Down.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists3",
+          "linkDetail": "/detail.html?id=44&type=video",
+          "linkImgDetail": "img/camly.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 45,
+      "songName": "",
+	  "linkAudio": "",
+	  "linkVideo": "video/Korea-video/Shut_Down.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists4",
+          "linkDetail": "/detail.html?id=45&type=video",
+          "linkImgDetail": "img/dantruong.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 46,
+      "songName": "",
+	  "linkAudio": "",
+	  "linkVideo": "video/Korea-video/Shut_Down.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists5",
+          "linkDetail": "/detail.html?id=46&type=video",
+          "linkImgDetail": "img/noophuocthinh.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 47,
+      "songName": "",
+	  "linkAudio": "",
+	  "linkVideo": "video/Korea-video/Shut_Down.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists6",
+          "linkDetail": "/detail.html?id=47&type=video",
+          "linkImgDetail": "img/hongocha.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 48,
+      "songName": "",
+	  "linkAudio": "",
+	  "linkVideo": "video/Korea-video/Shut_Down.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists7",
+          "linkDetail": "/detail.html?id=48&type=video",
+          "linkImgDetail": "img/baothi.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 49,
+      "songName": "",
+	  "linkAudio": "",
+	  "linkVideo": "video/Korea-video/Shut_Down.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists8",
+          "linkDetail": "/detail.html?id=49&type=video",
+          "linkImgDetail": "img/baoanh.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 50,
+      "songName": "",
+	  "linkAudio": "",
+	  "linkVideo": "video/Korea-video/Shut_Down.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists9",
+          "linkDetail": "/detail.html?id=50&type=video",
+          "linkImgDetail": "img/haanhtuan.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 51,
+      "songName": "",
+	  "linkAudio": "",
+	  "linkVideo": "video/Korea-video/Shut_Down.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists10",
+          "linkDetail": "/detail.html?id=51&type=video",
+          "linkImgDetail": "img/ducphuc.jpg"
+        } 	
+      ]
+	},
+	{
+      "id": 52,
+      "songName": "",
+	  "linkAudio": "",
+	  "linkVideo": "video/Korea-video/Shut_Down.mp4",
+      "singer": [
+        {
+          "el1": "Music",
+          "el2": ""
+        }
+      ],
+      "composer": "",
+      "album": [
+        {
+          "el1": "Nhạc Hot",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "category": [
+        {
+          "el1": "Nhạc Nhẹ",
+          "el2": "Nhạc Trữ Tình"
+        }
+      ],
+      "lyrics": "",
+      "locationTag": [
+		{
+          "locationTagName": "topartists11",
+          "linkDetail": "/detail.html?id=52&type=video",
+          "linkImgDetail": "img/khoimy.jpg"
+        } 	
+      ]
+	}  	 	
   ]
 }
