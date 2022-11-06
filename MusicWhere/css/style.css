@@ -4,6 +4,7 @@
 
 html,
 body {
+
     font-weight: 400;
     line-height: 24px;
     color: #ffffff;
@@ -282,6 +283,10 @@ a.song-name {
     padding: 10px 0;
     margin: 0;
     width: 100%;
+}
+
+.imgartist img{
+    border-radius: 50%;
 }
 
 .mdl-songs .media:last-child {
@@ -571,6 +576,7 @@ a.song-name {
   min-height: 250px;
 }
 .topartists{
+    border-radius: 50%;
     font-size: 20px;
 }
 .topartists #media{
@@ -593,3 +599,41 @@ a.song-name {
 .options{
 float: right;
 }   
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.login-wrap .icon {
+    width: 80px;
+    height: 80px;
+    background: #000000;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.login-wrap .icon span {
+    color: #fff;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+#btnLogout:hover span {
+    display: none
+  }
+#btnLogout:hover:before {
+    content: "Logout"
+  }

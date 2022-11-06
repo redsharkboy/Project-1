@@ -66,7 +66,7 @@
                                     <a class="nav-link" href="/topartists.html">TOP ARTISTS</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="aboutus.html">About Us</a>
+                                    <a class="nav-link" href="/aboutus.html">ABOUT US</a>
                                 </li>
                             </ul>
                             <form class="d-flex">
@@ -74,6 +74,17 @@
                                 <button class="btn btn-outline-light" type="submit"><i
                                         class="fa fa-search"></i></button>
                             </form>
+                            <li class="nav-item" style="list-style: none; margin-left: 15px;">
+                                <!-- Button trigger modal -->
+                                <button id="btnLogin" type="button" class="btn btn-light" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                    Login
+                                </button>
+                                <button id="btnLogout" type="button" class="btn btn-light" onclick="logOut()">
+                                    <span id="nameUser"></span>
+                                </button>
+
+                            </li>
                         </div>
                     </div>
                 </nav>
@@ -93,9 +104,69 @@
                     <span> <i class="fa-solid fa-person"></i> </span>
                     <span id="CounterVisitor"> </span>
                 </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row justify-content-center">
+                                    <div class="">
+                                        <div class="login-wrap ">
+                                            <div class="icon d-flex align-items-center justify-content-center">
+                                                <span class="fa fa-user-o"></span>
+                                            </div>
+                                            <h3 class="text-center mb-4">Sign In</h3>
+                                            <form id="basic-form" action="#">
+                                                <div class="form-group">
+                                                    <input type="text" name="user" class="form-control rounded-left"
+                                                        placeholder="Username" required="">
+                                                </div>
+                                                <div class="form-group d-flex">
+                                                    <input type="password" name="pw" class="form-control rounded-left"
+                                                        placeholder="Password" required="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit"
+                                                        class="form-control btn btn-primary rounded px-3 "
+                                                        data-bs-dismiss="modal"
+                                                        style="margin-bottom: 5px;">Login</button>
+                                                    <button type="button"
+                                                        class="form-control btn btn-secondary rounded px-3"
+                                                        data-bs-dismiss="modal">Close</button>
+
+                                                </div>
+                                                <div class="form-group d-md-flex">
+                                                    <div class="w-50">
+                                                        <label class="checkbox-wrap checkbox-primary">Remember Me
+                                                            <input type="checkbox" checked="">
+                                                            <span class="checkmark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="w-50 text-md-right">
+                                                        <a href="#">Forgot Password</a>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row lienhe">
-                <div class="col-md-8">
+            <div class="row contacs">
+                <div class="col-md-4">
                     <div class="thumbnail"><img src="img/where.jfif">
                         <div class="caption">
                             <h3>SoundBlast</h3>
@@ -119,30 +190,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-8">
                     <div class="table-responsive">
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th>Column 1</th>
-                                    <th>Column 2</th>
+                                    <th>Member</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Họ tên</td>
+                                    <td>First and last name</td>
                                     <td>Bùi Tuấn Vũ</td>
                                 </tr>
                                 <tr>
-                                    <td>Vị trí</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Nhiệm vụ</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>SĐT </td>
+                                    <td>Phone </td>
                                     <td>+84 985 180 490</td>
                                 </tr>
                                 <tr>
@@ -150,72 +212,242 @@
                                     <td>tuanvushark@gmail.com</td>
                                 </tr>
                                 <tr>
-                                    <td>Địa chỉ</td>
+                                    <td>Address</td>
                                     <td>Hà Nội</td>
                                 </tr>
                                 <tr>
-                                    <td>Nhóm</td>
-                                    <td>OnlyMe</td>
+                                    <td>Team</td>
+                                    <td>ONLY TEAM</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Member</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>First and last name</td>
+                                    <td>Bùi Khương Duy</td>
+                                </tr>
+                                <tr>
+                                    <td>Phone </td>
+                                    <td>+84 347 911 976</td>
+                                </tr>
+                                <tr>
+                                    <td>Email </td>
+                                    <td>khuongduy.gt@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Địa chỉ</td>
+                                    <td>Nam Định</td>
+                                </tr>
+                                <tr>
+                                    <td>Address</td>
+                                    <td>ONLY TEAM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Member</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>First and last name</td>
+                                        <td>Bùi Duy Phước</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone </td>
+                                        <td>+84 987 282 510</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email </td>
+                                        <td>phuochy197@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Địa chỉ</td>
+                                        <td>Hưng Yên</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Address</td>
+                                        <td>ONLY TEAM</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
+                <div class="col-md-8">
+                    <div class="comment">
+                        <form id="basic-form" action="" method="post">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Please enter your email address!</label>
+                                <input type="email" class="form-control" id="email" placeholder="Contact@fpt.edu.com"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Messenger</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Up to 2000 characters!"></textarea>
+                            </div>
 
-                        <p class="link">
-                            <a href="/">Home</a>
-                            <a href="/aboutus.html">About us</a>
-                            <a href="/huong-dan/dieu-khoan-su-dung">Terms of use</a>
-                            <a href="javascript:void(0);" class="user">Feedback</a>
-                            <a href="/huong-dan/cau-hoi-thuong-gap">Contact us </a>
-                        </p>
-                        <p class="text-copyright">
-                            <span class="text-copyright">Copyright © SoundBlast.</span>
-                            <span>Số 8, Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, HN</span>
-                        </p>
-                        <p><span class="con-title">Email us :</span>
-                            <span><a href=mailto: SoundBlast@gmail.com?subject="HTML link">SoundBlast@gmail.com</a><a
-                                    href=mailto: fpt-aptech@gmail.com="HTML link">fpt-aptech@gmail.com</a></span>
-                            <span><a href="tel://0987654321">Mobile: 0987654321</a></span>
-                        </p>
-                        <p>
-                            <span><i class="fa-brands fa-facebook"></i> <a href="#">Facebook</a></span>
-                            <span><i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a></span>
-                            <span><i class="fa-brands fa-github"></i> <a href="#">Github</a></span>
-                        </p>
-                        <div class="third">
-                            <h3 class="ms-color">Download Our App</h3>
-                            <p>Go Mobile with our app.
-                                Listen to your favourite song at just one click. Download Now !
-                            </p>
-                            <a href="#"><img src="img/google_play.jpg" alt=""></a>
-                            <a href="#"><img src="img/app_store.jpg" alt=""></a>
-                            <a href="#"><img src="img/windows.jpg" alt=""></a>
+                            <button type="submit" class="btn btn-primary" data-bs-toggle="modal">
+                                Post a messenger!
+                            </button>
+                        </form>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="commentModal" tabindex="-1" aria-labelledby="mocalComment"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="mocalComment">Confirm Submit Comment</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            From: <strong id="commentFrom"></strong>
+                                        </p>
+                                        <p>
+                                            To: <strong id="commentTo"></strong>
+                                        </p>
+                                        <br>
+                                        <p>
+                                            Messenger: <span id="commentDetail"></spanspan>
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Stop</button>
+                                        <!-- <button type="button" class="btn btn-primary">Gửi luôn</button> -->
+                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                            data-bs-target="#sendModal">
+                                            Send it
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="sendModal" tabindex="-1" aria-labelledby="mocalComment"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="mocalComment">SUCCESSFUL</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <h1 style="text-align:center;">
+                                                <div class="checkmark-circle">
+                                                    <div class="background"></div>
+                                                    <div class="checkmark draw"></div>
+                                                </div>
+                                                <h1>
+                                        </div>
+
+                                        <p>Your comment has been sent successfully.</p>
+                                        <p>Please take all responsibility for my words ^^.</p>
+                                    </div>
+
+                                    <div class="modal-footer">
+
+                                        <button type="button" style="width:100%" class="btn btn-secondary"
+                                            onclick="resetComment()" data-bs-dismiss="modal">OK
+                                        </button>
+
+                                        <!-- <button type="button" class="btn btn-primary">Gửi luôn</button> -->
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <div id="map" style="width:500px;height:500px;">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.097863491623!2d105.77960061396602!3d21.02876989315603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134551ad22f79af%3A0xeaeffacd4a3ba428!2zVmnhu4duIMSRw6BvIHThuqFvIGzhuq1wIHRyw6xuaCB2acOqbiBGUFQtQXB0ZWNo!5e0!3m2!1svi!2s!4v1667058925989!5m2!1svi!2s"
-                                width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-contact">
+                        <i class="fa fa-map-marker"></i>
+                        <h5>Address</h5>
+                        <p>Số 8, Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, HN</p>
+                    </div>
+                    <div class="single-contact">
+                        <i class="fa fa-phone"></i>
+                        <h5>Phone</h5>
+                        <p>(+84) 99 888 6666</p>
+                    </div>
+                    <div class="single-contact">
+                        <i class="fa fa-envelope"></i>
+                        <h5>Email</h5>
+                        <p>SoundBlast@gmail.com</p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+
+                    <p class="link">
+                        <a href="/">Home</a>
+                        <a href="/aboutus.html">About us</a>
+                        <a href="/aboutus.html">Terms of use</a>
+                        <a href="/aboutus.html" class="user">Feedback</a>
+                        <a href="/aboutus.html">Contact us </a>
+                    </p>
+                    <p class="text-copyright">
+                        <span class="text-copyright">Copyright © SoundBlast.</span>
+                        <span>Số 8, Tôn Thất Thuyết, Mỹ Đình, Từ Liêm, HN</span>
+                    </p>
+                    <p><span class="con-title">Email us :</span>
+                        <span><a href=mailto: SoundBlast@gmail.com?subject="HTML link">SoundBlast@gmail.com</a><a
+                                href=mailto: fpt-aptech@gmail.com="HTML link">fpt-aptech@gmail.com</a></span>
+                        <span><a href="tel://0987654321">Mobile: 0987654321</a></span>
+                    </p>
+                    <p>
+                        <span><i class="fa-brands fa-facebook"></i> <a href="#">Facebook</a></span>
+                        <span><i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a></span>
+                        <span><i class="fa-brands fa-github"></i> <a href="#">Github</a></span>
+                    </p>
+                    <div class="third">
+                        <h3 class="ms-color">Download Our App</h3>
+                        <p>Go Mobile with our app.
+                            Listen to your favourite song at just one click. Download Now !
+                        </p>
+                        <a href="#"><img src="img/google_play.jpg" alt=""></a>
+                        <a href="#"><img src="img/app_store.jpg" alt=""></a>
+                        <a href="#"><img src="img/windows.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div id="map" style="width:500px;height:500px;">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.097863491623!2d105.77960061396602!3d21.02876989315603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134551ad22f79af%3A0xeaeffacd4a3ba428!2zVmnhu4duIMSRw6BvIHThuqFvIGzhuq1wIHRyw6xuaCB2acOqbiBGUFQtQXB0ZWNo!5e0!3m2!1svi!2s!4v1667058925989!5m2!1svi!2s"
+                            width="450" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
 
 
 <script>
+
     let d = new Date();
     let month = d.getMonth() + 1;
     let day = d.getDate();
@@ -285,7 +517,7 @@
             mybutton.style.display = "block";
             // mybutton.textContent =
         } else {
-            //console.log("in scroll display = none")
+            console.log("in scroll display = none")
             mybutton.style.display = "none";
         }
     }
@@ -307,39 +539,68 @@
     let countTab = 1;
     let countTab1 = 1;
     let countTab2 = 1;
+
+    let searchParams = new URLSearchParams(window.location.search)
+    let idItem = searchParams.get('id')
+    let typeItem = searchParams.get('type')
+
     $(document).ready(function () {
         $.getJSON("data/data.json", function (data) {
+
             data.items.forEach(function (item) {
+                if (item.id == idItem) {
+                    showDetailItem(item)
+                }
                 createTemplate(item);
             });
         }).fail(function () {
             console.log("An error has occurred.");
         });
+
     });
+
+    let singer1;
+    let singer2;
+    let songName;
+
+    function showDetailItem(items) {
+        console.log(items);
+        let lyricSong = items.lyrics;
+        singer1 = items.singer[0].el1;
+        singer2 = items.singer[0].el2;
+        songName = items.songName;
+
+        let audioTag = '<audio src="' + items.linkAudio + '" controls></audio>'
+        let videoTag = '<video width="400" controls><source src="' + items.linkVideo + '" type="video/mp4">Your browser does not support HTML video.</video>'
+        if (typeItem == "audio") {
+            $('#showVideoAudio').append(audioTag);
+        } else if (typeItem == "video") {
+            $('#showVideoAudio').append(videoTag);
+        }
+        $('#lyricBody').append(lyricSong);
+        $('#titleSong').text(items.songName);
+        $('.name_lyric').text('Lời bài hát: ' + items.songName);
+
+        $('#titleSinger').text(singer1 + ',' + singer2);
+        $('.name_singer').text('Ca sĩ: ' + singer1 + ',' + singer2);
+
+    }
     function createTemplate(item) {
         item.locationTag.forEach(function (element) {
             let fieldHTML = null;
             switch (element.locationTagName) {
                 case "contentLike1":
                 case "contentLike2":
-                // case "contentNew1":
-                // case "contentNew2":
-                // case "contentNew3":
+                case "contentDownload":
+                case "contentNew1":
+                case "contentNew2":
                 case "whatListen":
                 case "tap4":
                 case "tap5":
                     fieldHTML = '<div class="media"><div class="media-left"><a href="' + element.linkDetail + '"><img class="media-object" src="' + element.linkImgDetail + '" onerror="this.src=\'img/4x4.png\';" width="48" alt="..."></a></div><div class="media-body" style="width: 285px;"><a href="' + element.linkDetail + '" class="song-name ellipsis" title="' + item.songName + '" style="max-width: 244px;"> ' + item.songName + ' </a><p class="singer-name ellipsis" title="' + item.singer[0].el1 + ',' + item.singer[0].el2 + '" style="max-width: 244px;">' + item.singer[0].el1 + ',' + item.singer[0].el2 + '</p></div></div>';
                     break;
-                case "contentNew1":
-                case "contentNew2":
-                case "contentNew3":
-                    fieldHTML = '<div class="media"><div class="media-left"><a href="' + element.linkDetail + '"><img class="media-object" src="' + element.linkImgDetail + '" onerror="this.src=\'img/4x4.png\';" width="100"; height="100" alt="..."></a></div><div class="media-body" style="width: 285px;"><a href="' + element.linkDetail + '" class="song-name ellipsis" title="' + item.songName + '" style="max-width: 244px;"> ' + item.songName + ' </a><p class="singer-name ellipsis" title="' + item.singer[0].el1 + ',' + item.singer[0].el2 + '" style="max-width: 244px;">' + item.singer[0].el1 + ',' + item.singer[0].el2 + '</p></div></div>';
-                    break;
                 case "contentHot":
-                case "contentMV":
-                case "contentMV1":
-                case "contentMV2":
-                    fieldHTML = '<div class="cardMv"><a href="' + element.linkDetail + '"><img src="' + element.linkImgDetail + '" class="image-topic" alt="" onerror="this.src=\'/images/onbox_02.jpg\';" title="' + element.linkDetail + '"></a><a href="' + element.linkDetail + '" class="img-top"><img src="img/playHover1.jpg" class="image-topic" alt="" onerror="this.src=\'/images/onbox_02.jpg\';" title="' + element.linkDetail + '"></a></div>';
+                    fieldHTML = '<p><a href="' + element.linkDetail + '"><img src="' + element.linkImgDetail + '" class="image-topic" alt="" onerror="this.src=\'/images/onbox_02.jpg\';" title="' + element.linkDetail + '"></a></p>';
                     break;
                 case "tap1":
                     fieldHTML = '<div class="media"><div class="media-left"><a href="' + element.linkDetail + '"><img class="media-object" src="' + element.linkImgDetail + '" onerror="this.src=\'img/4x4.png\';" width="48" alt="..."></a></div><div class="media-body" ><a href="' + element.linkDetail + '" class="song-name ellipsis" title="' + item.songName + '" style="max-width: 187px;"> ' + item.songName + ' </a><p class="singer-name ellipsis" title="' + item.singer[0].el1 + ',' + item.singer[0].el2 + '" style="max-width: 187px;">' + item.singer[0].el1 + ',' + item.singer[0].el2 + '</p></div>';
@@ -384,16 +645,76 @@
 
     });
 
-    function showVideoOnHover(obj) {
-        $("#image").css("display", "none");
-        $("#youtube").css("display", "block");
-        $("#youtube").attr("src", $(obj).data("src"));
+    $(document).ready(function () {
+        $("#btnShowLyric").click(function () {
+            let txtData;
+            console.log($("#btnShowLyric").text());
+            if ($("#btnShowLyric").text() == "Xem Lời Bài Hát") {
+                txtData = "Ẩn Lời Bài Hát";
+            } else {
+                txtData = "Xem Lời Bài Hát";
+            }
+            $("#btnShowLyric").text(txtData);
+
+        });
+    });
+
+    $("#basic-form").submit(function (e) {
+        $('#commentModal').modal('show');
+        sendComment();
+        return false;
+    });
+
+
+
+    function sendComment() {
+        let emailFrom = $('#email').val();
+        let emailTo = "SoundBlast@gmail.com"
+        let detailComment = $('#exampleFormControlTextarea1').val();
+        $('#commentFrom').text(emailFrom);
+        $('#commentTo').text(emailTo);
+        $('#commentDetail').text(detailComment);
+        $('#commentSong').text(songName);
+        $('#commentSinger').text(singer1 + ', ' + singer2);
     }
-    function hideVideo() {
-        $("#youtube").css("display", "none");
-        $("#image").css("display", "block");
+    function resetComment() {
+        $('#email').val("");
+        $('#exampleFormControlTextarea1').val("");
     }
 
+
+    let userName = localStorage.getItem('user_login');
+
+
+    if (userName != null) {
+        showUser();
+    }else{
+        logOut();
+    }
+
+
+    $("#basic-form").submit(function (e) {
+        var formData = $('#basic-form').serializeArray();
+        var strSaveUser = JSON.stringify({ "user": formData[0].value, "password": formData[1].value });
+        localStorage.setItem("user_login", strSaveUser);
+        showUser()
+        $('#basic-form').modal('hide');
+        return false;
+
+
+    });
+
+    function showUser() {
+        var userName = JSON.parse(localStorage.getItem('user_login'));
+        $("#nameUser").text(userName.user);
+        $("#btnLogout").show();
+        $("#btnLogin").hide();
+    }
+    function logOut() {
+        localStorage.removeItem("user_login");
+        $("#btnLogout").hide();
+        $("#btnLogin").show();
+    }
 </script>
 
 
